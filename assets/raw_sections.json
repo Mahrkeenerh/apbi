@@ -1,0 +1,2457 @@
+[
+    {
+        "name": "Zvieratá",
+        "link": "https://zvierata.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=zv",
+        "categories": [
+            {
+                "name": "Akvarijné rybičky",
+                "link": "/ryba/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=33"
+            },
+            {
+                "name": "Drobné cicavce",
+                "link": "/cicavec/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=34"
+            },
+            {
+                "name": "Kone",
+                "link": "/kon/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=35"
+            },
+            {
+                "name": "Kone - potreby",
+                "link": "/konepotreby/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=50"
+            },
+            {
+                "name": "Kone - služby"
+            },
+            {
+                "name": "Mačky",
+                "link": "/macka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=36"
+            },
+            {
+                "name": "Psy",
+                "link": "/pes/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=37"
+            },
+            {
+                "name": "Vtáctvo",
+                "link": "/vtak/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=38"
+            },
+            {
+                "name": "Terárijné zvieratá",
+                "link": "/zviera/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=39"
+            },
+            {
+                "name": "Ostatné domáce",
+                "link": "/ostatnidomaci/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=40"
+            },
+            {
+                "name": "Krytie",
+                "link": "/kryti/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=42"
+            },
+            {
+                "name": "Stratení a nájdení",
+                "link": "/strateni/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=255"
+            },
+            {
+                "name": "Chovateľské potreby",
+                "link": "/potreby/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=41"
+            },
+            {
+                "name": "Služby pre zvieratá"
+            },
+            {
+                "name": "Hydina",
+                "link": "/hydina/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=44"
+            },
+            {
+                "name": "Králiky",
+                "link": "/kralik/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=45"
+            },
+            {
+                "name": "Ovce a kozy",
+                "link": "/koza/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=46"
+            },
+            {
+                "name": "Prasatá",
+                "link": "/prase/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=47"
+            },
+            {
+                "name": "Dobytok",
+                "link": "/dobytok/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=48"
+            },
+            {
+                "name": "Ostatné hospodárske",
+                "link": "/ostatnihospodarska/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=zv&cat=49"
+            }
+        ]
+    },
+    {
+        "name": "Deti",
+        "link": "https://deti.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=de",
+        "categories": [
+            {
+                "name": "Autosedačky",
+                "link": "/autosedacky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=120"
+            },
+            {
+                "name": "Baby monitory",
+                "link": "/baby/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=121"
+            },
+            {
+                "name": "Bicykle",
+                "link": "/bicykle/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=452"
+            },
+            {
+                "name": "Detská literatúra"
+            },
+            {
+                "name": "Hračky",
+                "link": "/hracky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=122"
+            },
+            {
+                "name": "Chodítka a hopsadlá",
+                "link": "/choditka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=123"
+            },
+            {
+                "name": "Kočíky",
+                "link": "/kociky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=124"
+            },
+            {
+                "name": "Kojenecké potreby",
+                "link": "/kojenecke/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=126"
+            },
+            {
+                "name": "Nábytok pre deti",
+                "link": "/nabytok/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=127"
+            },
+            {
+                "name": "Nosiče",
+                "link": "/nositka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=128"
+            },
+            {
+                "name": "Odrážadlá",
+                "link": "/odrazadla/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=130"
+            },
+            {
+                "name": "Sedačky na bicykel",
+                "link": "/sedacky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=131"
+            },
+            {
+                "name": "Športové potreby",
+                "link": "/sportove/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=132"
+            },
+            {
+                "name": "Školské potreby",
+                "link": "/skolske/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=133"
+            },
+            {
+                "name": "Stráženie detí"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=135"
+            },
+            {
+                "name": "Body, dupačky a overaly",
+                "link": "/dupacky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=136"
+            },
+            {
+                "name": "Bundy a kabátiky",
+                "link": "/bundy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=137"
+            },
+            {
+                "name": "Čiapky a klobúčiky",
+                "link": "/ciapky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=138"
+            },
+            {
+                "name": "Nohavice, kraťasy a tepláky",
+                "link": "/nohavice/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=139"
+            },
+            {
+                "name": "Kombinézy",
+                "link": "/kombinezy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=140"
+            },
+            {
+                "name": "Komplety",
+                "link": "/komplety/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=438"
+            },
+            {
+                "name": "Mikiny a svetre",
+                "link": "/mikiny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=141"
+            },
+            {
+                "name": "Obuv",
+                "link": "/obuv/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=129"
+            },
+            {
+                "name": "Plavky",
+                "link": "/plavky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=142"
+            },
+            {
+                "name": "Ponožky a pančušky",
+                "link": "/ponozky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=143"
+            },
+            {
+                "name": "Pyžamká a župančeky",
+                "link": "/pyzamka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=144"
+            },
+            {
+                "name": "Rukavice a šály",
+                "link": "/rukavice/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=145"
+            },
+            {
+                "name": "Spodná bielizeň",
+                "link": "/bielizen/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=146"
+            },
+            {
+                "name": "Sukničky a šatočky",
+                "link": "/suknicky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=147"
+            },
+            {
+                "name": "Tehotenské oblečenie"
+            },
+            {
+                "name": "Tričká a košieľky",
+                "link": "/tricka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=148"
+            },
+            {
+                "name": "Ostatné oblečenie",
+                "link": "/oblecenie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=de&cat=125"
+            }
+        ]
+    },
+    {
+        "name": "Reality",
+        "link": "https://reality.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=re",
+        "categories": [
+            {
+                "name": "Byty",
+                "link": "/predam/byt/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=152&typ=1"
+            },
+            {
+                "name": "Domy",
+                "link": "/predam/dom/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=155&typ=1"
+            },
+            {
+                "name": "Nové projekty",
+                "link": "/predam/projekty/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=166&typ=1"
+            },
+            {
+                "name": "Garáže",
+                "link": "/predam/garaz/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=160&typ=1"
+            },
+            {
+                "name": "Hotely, reštaurácie",
+                "link": "/predam/restauracie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=165&typ=1"
+            },
+            {
+                "name": "Chalupy, Chaty",
+                "link": "/predam/chata/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=157&typ=1"
+            },
+            {
+                "name": "Kancelárie",
+                "link": "/predam/kancelar/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=161&typ=1"
+            },
+            {
+                "name": "Obchodné priestory",
+                "link": "/predam/priestory/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=164&typ=1"
+            },
+            {
+                "name": "Pozemky",
+                "link": "/predam/pozemok/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=158&typ=1"
+            },
+            {
+                "name": "Sklady",
+                "link": "/predam/sklad/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=162&typ=1"
+            },
+            {
+                "name": "Záhrady",
+                "link": "/predam/zahrada/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=159&typ=1"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/predam/ostatni/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=163&typ=1"
+            },
+            {
+                "name": "Byty",
+                "link": "/prenajmu/byt/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=152&typ=3"
+            },
+            {
+                "name": "Domy",
+                "link": "/prenajmu/dom/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=155&typ=3"
+            },
+            {
+                "name": "Nové projekty",
+                "link": "/prenajmu/projekty/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=166&typ=3"
+            },
+            {
+                "name": "Podnájom, spolubývajúci",
+                "link": "/prenajmu/podnajom/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=156&typ=3"
+            },
+            {
+                "name": "Garáže",
+                "link": "/prenajmu/garaz/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=160&typ=3"
+            },
+            {
+                "name": "Hotely, reštaurácie",
+                "link": "/prenajmu/restauracie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=165&typ=3"
+            },
+            {
+                "name": "Ubytovanie"
+            },
+            {
+                "name": "Kancelárie",
+                "link": "/prenajmu/kancelar/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=161&typ=3"
+            },
+            {
+                "name": "Obchodné priestory",
+                "link": "/prenajmu/priestory/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=164&typ=3"
+            },
+            {
+                "name": "Pozemky",
+                "link": "/prenajmu/pozemok/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=158&typ=3"
+            },
+            {
+                "name": "Sklady",
+                "link": "/prenajmu/sklad/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=162&typ=3"
+            },
+            {
+                "name": "Záhrady",
+                "link": "/prenajmu/zahrada/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=159&typ=3"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/prenajmu/ostatni/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=re&cat=163&typ=3"
+            }
+        ]
+    },
+    {
+        "name": "Práca",
+        "link": "https://praca.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=pr",
+        "categories": [
+            {
+                "name": "Administratíva",
+                "link": "/administrativa/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=341"
+            },
+            {
+                "name": "Chémia a potravinárstvo",
+                "link": "/potravinarstvo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=342"
+            },
+            {
+                "name": "Doprava a logistika",
+                "link": "/logistika/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=343"
+            },
+            {
+                "name": "Financie a ekonomika",
+                "link": "/financie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=344"
+            },
+            {
+                "name": "IT a telekomunikácie",
+                "link": "/it/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=345"
+            },
+            {
+                "name": "Marketing a reklama",
+                "link": "/marketing/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=346"
+            },
+            {
+                "name": "Management",
+                "link": "/management/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=347"
+            },
+            {
+                "name": "Obchod a predaj",
+                "link": "/obchod/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=348"
+            },
+            {
+                "name": "Obrana a bezpečnosť",
+                "link": "/bezpecnost/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=349"
+            },
+            {
+                "name": "Pohostinstvá a ubytovanie",
+                "link": "/ubytovanie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=350"
+            },
+            {
+                "name": "Práca v domácnosti",
+                "link": "/domacnost/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=351"
+            },
+            {
+                "name": "Právo, legislatíva",
+                "link": "/pravo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=352"
+            },
+            {
+                "name": "Priemysel a výroba",
+                "link": "/priemysel/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=353"
+            },
+            {
+                "name": "Remeselné práce",
+                "link": "/remeslo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=354"
+            },
+            {
+                "name": "Servis a služby",
+                "link": "/sluzby/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=355"
+            },
+            {
+                "name": "Stavebníctvo",
+                "link": "/stavebnictvo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=357"
+            },
+            {
+                "name": "Technika a energetika",
+                "link": "/technika/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=358"
+            },
+            {
+                "name": "Tlač a polygrafia",
+                "link": "/tlac/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=359"
+            },
+            {
+                "name": "Výskum a vývoj",
+                "link": "/vyskum/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=360"
+            },
+            {
+                "name": "Vzdelávánie a personalistika",
+                "link": "/personalistika/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=361"
+            },
+            {
+                "name": "Zdravotníctvo",
+                "link": "/zdravotnictvo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=362"
+            },
+            {
+                "name": "Poľnohospodárstvo",
+                "link": "/polnohospodarstvo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=363"
+            },
+            {
+                "name": "Brigády",
+                "link": "/brigada/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=364"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatni/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pr&cat=365"
+            }
+        ]
+    },
+    {
+        "name": "Auto",
+        "link": "https://auto.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=au",
+        "categories": [
+            {
+                "name": "Alfa Romeo",
+                "link": "/alfa/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=439"
+            },
+            {
+                "name": "Audi",
+                "link": "/audi/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=79"
+            },
+            {
+                "name": "BMW",
+                "link": "/bmw/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=80"
+            },
+            {
+                "name": "Citroën",
+                "link": "/citroen/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=81"
+            },
+            {
+                "name": "Dacia",
+                "link": "/dacia/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=457"
+            },
+            {
+                "name": "Fiat",
+                "link": "/fiat/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=82"
+            },
+            {
+                "name": "Ford",
+                "link": "/ford/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=83"
+            },
+            {
+                "name": "Honda",
+                "link": "/honda/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=116"
+            },
+            {
+                "name": "Hyundai",
+                "link": "/hyundai/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=84"
+            },
+            {
+                "name": "Chevrolet",
+                "link": "/chevrolet/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=117"
+            },
+            {
+                "name": "Kia",
+                "link": "/kia/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=118"
+            },
+            {
+                "name": "Mazda",
+                "link": "/mazda/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=85"
+            },
+            {
+                "name": "Mercedes-Benz",
+                "link": "/mercedes/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=86"
+            },
+            {
+                "name": "Mitsubishi",
+                "link": "/mitsubishi/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=441"
+            },
+            {
+                "name": "Nissan",
+                "link": "/nissan/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=87"
+            },
+            {
+                "name": "Opel",
+                "link": "/opel/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=88"
+            },
+            {
+                "name": "Peugeot",
+                "link": "/peugeot/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=89"
+            },
+            {
+                "name": "Renault",
+                "link": "/renault/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=90"
+            },
+            {
+                "name": "Seat",
+                "link": "/seat/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=91"
+            },
+            {
+                "name": "Suzuki",
+                "link": "/suzuki/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=119"
+            },
+            {
+                "name": "Škoda",
+                "link": "/skoda/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=92"
+            },
+            {
+                "name": "Toyota",
+                "link": "/toyota/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=93"
+            },
+            {
+                "name": "Volkswagen",
+                "link": "/volkswagen/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=94"
+            },
+            {
+                "name": "Volvo",
+                "link": "/volvo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=95"
+            },
+            {
+                "name": "Ostatné značky",
+                "link": "/ostatni/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=96"
+            },
+            {
+                "name": "Autorádiá"
+            },
+            {
+                "name": "GPS navigácia"
+            },
+            {
+                "name": "Havarované",
+                "link": "/havarovana/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=97"
+            },
+            {
+                "name": "Náhradné diely",
+                "link": "/nahradnidily/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=98"
+            },
+            {
+                "name": "Pneumatiky, kolesá",
+                "link": "/pneumatiky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=115"
+            },
+            {
+                "name": "Príslušenstvo",
+                "link": "/prislusenstvo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=424"
+            },
+            {
+                "name": "Tuning",
+                "link": "/tuning/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=113"
+            },
+            {
+                "name": "Veterány",
+                "link": "/veterany/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=114"
+            },
+            {
+                "name": "Autobusy",
+                "link": "/autobusy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=107"
+            },
+            {
+                "name": "Dodávky",
+                "link": "/dodavka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=100"
+            },
+            {
+                "name": "Mikrobusy",
+                "link": "/mikrobus/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=101"
+            },
+            {
+                "name": "Karavany, vozíky",
+                "link": "/karavany/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=111"
+            },
+            {
+                "name": "Nákladné autá",
+                "link": "/nakladne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=112"
+            },
+            {
+                "name": "Pick-up",
+                "link": "/pickup/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=99"
+            },
+            {
+                "name": "Stroje"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatniuzitkova/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=102"
+            },
+            {
+                "name": "Havarované",
+                "link": "/havarovanauzitkova/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=103"
+            },
+            {
+                "name": "Náhradné diely",
+                "link": "/nahradnidilyuzitkova/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=au&cat=104"
+            },
+            {
+                "name": "Motocykle, Skútre"
+            }
+        ]
+    },
+    {
+        "name": "Motocykle",
+        "link": "https://motocykle.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=mt",
+        "categories": [
+            {
+                "name": "Cestné motocykle",
+                "link": "/cestne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=186"
+            },
+            {
+                "name": "Cestovné motocykle",
+                "link": "/cestovne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=187"
+            },
+            {
+                "name": "Enduro",
+                "link": "/enduro/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=188"
+            },
+            {
+                "name": "Chopper",
+                "link": "/chopper/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=189"
+            },
+            {
+                "name": "Minibike",
+                "link": "/minibike/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=190"
+            },
+            {
+                "name": "Mopedy",
+                "link": "/mopedy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=192"
+            },
+            {
+                "name": "Skútre",
+                "link": "/skutre/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=193"
+            },
+            {
+                "name": "Skútre vodné",
+                "link": "/vodne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=194"
+            },
+            {
+                "name": "Skútre snežné",
+                "link": "/snezne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=191"
+            },
+            {
+                "name": "Štvorkolky",
+                "link": "/stvorkolky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=195"
+            },
+            {
+                "name": "Trojkolky",
+                "link": "/trojkolky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=196"
+            },
+            {
+                "name": "Veterány",
+                "link": "/veterany/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=197"
+            },
+            {
+                "name": "Náhradné diely",
+                "link": "/diely/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=198"
+            },
+            {
+                "name": "Oblečenie, obuv, helmy",
+                "link": "/helmy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=199"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mt&cat=200"
+            }
+        ]
+    },
+    {
+        "name": "Stroje",
+        "link": "https://stroje.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=st",
+        "categories": [
+            {
+                "name": "Čerpadlá",
+                "link": "/cerpadla/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=208"
+            },
+            {
+                "name": "Čistiace stroje",
+                "link": "/cistiace/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=209"
+            },
+            {
+                "name": "Drevoobrábacie stroje",
+                "link": "/drevoobrabacie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=210"
+            },
+            {
+                "name": "Generátory",
+                "link": "/generatory/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=211"
+            },
+            {
+                "name": "Historické stroje",
+                "link": "/historicke/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=212"
+            },
+            {
+                "name": "Motory",
+                "link": "/motory/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=214"
+            },
+            {
+                "name": "Kovoobrábacie stroje",
+                "link": "/kovoobrabacie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=215"
+            },
+            {
+                "name": "Poľnohospodárska technika",
+                "link": "/polnohospodarska/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=216"
+            },
+            {
+                "name": "Potravinárske stroje",
+                "link": "/potravinarske/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=213"
+            },
+            {
+                "name": "Skladová technika",
+                "link": "/skladova/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=217"
+            },
+            {
+                "name": "Stavebné stroje",
+                "link": "/stavebne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=218"
+            },
+            {
+                "name": "Textilné stroje",
+                "link": "/textilne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=219"
+            },
+            {
+                "name": "Tlačiarenské stroje",
+                "link": "/tlaciarenske/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=220"
+            },
+            {
+                "name": "Vybavenie prevádzkarne",
+                "link": "/prevadzkarne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=221"
+            },
+            {
+                "name": "Výrobná linka",
+                "link": "/linka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=222"
+            },
+            {
+                "name": "Náhradné diely",
+                "link": "/diely/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=223"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=st&cat=224"
+            }
+        ]
+    },
+    {
+        "name": "Dom a záhrada",
+        "link": "https://dom.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=du",
+        "categories": [
+            {
+                "name": "Bazény",
+                "link": "/bazeny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=238"
+            },
+            {
+                "name": "Čerpadlá",
+                "link": "/cerpadla/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=239"
+            },
+            {
+                "name": "Dvere, brány",
+                "link": "/dvere/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=447"
+            },
+            {
+                "name": "Klimatizácie",
+                "link": "/klimatizacie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=240"
+            },
+            {
+                "name": "Kosačky",
+                "link": "/kosacky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=247"
+            },
+            {
+                "name": "Kotle, Kachle, Bojlery",
+                "link": "/kotle/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=241"
+            },
+            {
+                "name": "Malotraktory, Kultivátory",
+                "link": "/malotraktory/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=242"
+            },
+            {
+                "name": "Miešačky",
+                "link": "/miesacky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=244"
+            },
+            {
+                "name": "Náradie",
+                "link": "/naradie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=245"
+            },
+            {
+                "name": "Okná",
+                "link": "/okna/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=448"
+            },
+            {
+                "name": "Píly",
+                "link": "/pily/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=449"
+            },
+            {
+                "name": "Snežná technika",
+                "link": "/snezna/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=248"
+            },
+            {
+                "name": "Stavebný materiál",
+                "link": "/stavebny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=249"
+            },
+            {
+                "name": "Radiátory",
+                "link": "/radiatory/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=246"
+            },
+            {
+                "name": "Rastliny",
+                "link": "/rastliny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=243"
+            },
+            {
+                "name": "Vybavenie dielne",
+                "link": "/vybavenie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=250"
+            },
+            {
+                "name": "Vysávače/Fúkače",
+                "link": "/vysavace/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=251"
+            },
+            {
+                "name": "Záhradné grily",
+                "link": "/grily/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=252"
+            },
+            {
+                "name": "Záhradný nábytok"
+            },
+            {
+                "name": "Záhradná technika",
+                "link": "/technika/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=253"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=du&cat=254"
+            }
+        ]
+    },
+    {
+        "name": "PC",
+        "link": "https://pc.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=pc",
+        "categories": [
+            {
+                "name": "DVD, Blu-ray mechaniky",
+                "link": "/cd/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=1"
+            },
+            {
+                "name": "Fotoaparáty"
+            },
+            {
+                "name": "GPS navigácia",
+                "link": "/gps/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=32"
+            },
+            {
+                "name": "Grafické karty",
+                "link": "/graficka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=4"
+            },
+            {
+                "name": "Hard disky, SSD",
+                "link": "/hdd/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=5"
+            },
+            {
+                "name": "Herné konzoly",
+                "link": "/playstation/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=25"
+            },
+            {
+                "name": "Herné zariadenia",
+                "link": "/volanty/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=29"
+            },
+            {
+                "name": "Hry",
+                "link": "/hry/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=30"
+            },
+            {
+                "name": "Chladiče",
+                "link": "/chladic/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=27"
+            },
+            {
+                "name": "Klávesnice, myši",
+                "link": "/mys/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=6"
+            },
+            {
+                "name": "Kopírovacie stroje",
+                "link": "/kopirka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=7"
+            },
+            {
+                "name": "Mobilné telefóny"
+            },
+            {
+                "name": "Modemy",
+                "link": "/modem/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=2"
+            },
+            {
+                "name": "LCD monitory",
+                "link": "/monitor/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=9"
+            },
+            {
+                "name": "MP3 prehrávače",
+                "link": "/mp3/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=26"
+            },
+            {
+                "name": "Notebooky",
+                "link": "/notebook/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=10"
+            },
+            {
+                "name": "Pamäte",
+                "link": "/pamet/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=11"
+            },
+            {
+                "name": "PC, Počítače",
+                "link": "/pc/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=12"
+            },
+            {
+                "name": "Procesory",
+                "link": "/procesor/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=13"
+            },
+            {
+                "name": "Sieťové komponenty",
+                "link": "/sit/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=14"
+            },
+            {
+                "name": "Scanery",
+                "link": "/scaner/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=15"
+            },
+            {
+                "name": "Skrine, zdroje",
+                "link": "/case/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=16"
+            },
+            {
+                "name": "Software",
+                "link": "/software/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=17"
+            },
+            {
+                "name": "Spotrebný materiál",
+                "link": "/spotrebny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=31"
+            },
+            {
+                "name": "Tablety, E-čítačky",
+                "link": "/tablet/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=24"
+            },
+            {
+                "name": "Tlačiarne",
+                "link": "/tlaciaren/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=18"
+            },
+            {
+                "name": "Wireless, WiFi",
+                "link": "/wifi/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=28"
+            },
+            {
+                "name": "Základné dosky",
+                "link": "/motherboard/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=19"
+            },
+            {
+                "name": "Záložné zdroje",
+                "link": "/ups/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=20"
+            },
+            {
+                "name": "Zvukové karty",
+                "link": "/sound/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=21"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatni/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=pc&cat=22"
+            }
+        ]
+    },
+    {
+        "name": "Mobily",
+        "link": "https://mobil.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=mo",
+        "categories": [
+            {
+                "name": "Apple",
+                "link": "/apple/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=435"
+            },
+            {
+                "name": "HTC",
+                "link": "/htc/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=436"
+            },
+            {
+                "name": "Huawei, Honor",
+                "link": "/huawei/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=305"
+            },
+            {
+                "name": "LG",
+                "link": "/lg/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=301"
+            },
+            {
+                "name": "Motorola, Lenovo",
+                "link": "/motorola/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=302"
+            },
+            {
+                "name": "Nokia, Microsoft",
+                "link": "/nokia/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=303"
+            },
+            {
+                "name": "Samsung",
+                "link": "/samsung/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=304"
+            },
+            {
+                "name": "Sony",
+                "link": "/ericsson/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=306"
+            },
+            {
+                "name": "Xiaomi",
+                "link": "/xiaomi/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=451"
+            },
+            {
+                "name": "Ostatné značky",
+                "link": "/mobily/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=307"
+            },
+            {
+                "name": "Batérie",
+                "link": "/baterie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=308"
+            },
+            {
+                "name": "Bezdrôtové telefóny",
+                "link": "/bezdrotove/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=316"
+            },
+            {
+                "name": "Dátové kabely",
+                "link": "/kabely/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=309"
+            },
+            {
+                "name": "Faxy",
+                "link": "/faxy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=317"
+            },
+            {
+                "name": "GPS navigácia"
+            },
+            {
+                "name": "Headsety",
+                "link": "/headsety/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=310"
+            },
+            {
+                "name": "HF Sady do auta",
+                "link": "/hf/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=311"
+            },
+            {
+                "name": "Inteligentné hodinky",
+                "link": "/smartwatch/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=450"
+            },
+            {
+                "name": "Klasické telefóny",
+                "link": "/telefony/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=318"
+            },
+            {
+                "name": "Kryty",
+                "link": "/kryty/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=440"
+            },
+            {
+                "name": "Nabíjačky",
+                "link": "/nabijacky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=312"
+            },
+            {
+                "name": "Pamäťové karty",
+                "link": "/karty/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=313"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=mo&cat=315"
+            }
+        ]
+    },
+    {
+        "name": "Foto",
+        "link": "https://foto.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=fo",
+        "categories": [
+            {
+                "name": "Analógové fotoaparáty",
+                "link": "/kinofilm/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=443"
+            },
+            {
+                "name": "Digitálne fotoaparáty",
+                "link": "/digitalne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=256"
+            },
+            {
+                "name": "Drony",
+                "link": "/drony/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=456"
+            },
+            {
+                "name": "Videokamery",
+                "link": "/videokamery/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=258"
+            },
+            {
+                "name": "Zrkadlovky",
+                "link": "/zrkadlovky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=257"
+            },
+            {
+                "name": "Batérie",
+                "link": "/baterie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=259"
+            },
+            {
+                "name": "Blesky a osvetlenie",
+                "link": "/blesky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=442"
+            },
+            {
+                "name": "Brašne a púzdra",
+                "link": "/brasne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=260"
+            },
+            {
+                "name": "Dátové káble",
+                "link": "/kable/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=262"
+            },
+            {
+                "name": "Filtre",
+                "link": "/filtre/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=263"
+            },
+            {
+                "name": "Nabíjačky",
+                "link": "/nabijacky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=264"
+            },
+            {
+                "name": "Objektívy",
+                "link": "/objektivy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=261"
+            },
+            {
+                "name": "Pamäťové karty",
+                "link": "/karty/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=265"
+            },
+            {
+                "name": "Statívy",
+                "link": "/stativy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=266"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=fo&cat=267"
+            }
+        ]
+    },
+    {
+        "name": "Elektro",
+        "link": "https://elektro.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=el",
+        "categories": [
+            {
+                "name": "Digestory",
+                "link": "/digestory/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=389"
+            },
+            {
+                "name": "Chladničky",
+                "link": "/chladnicky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=390"
+            },
+            {
+                "name": "Mikrovlnné rúry",
+                "link": "/mikrovlnky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=391"
+            },
+            {
+                "name": "Mrazničky",
+                "link": "/mraznicky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=392"
+            },
+            {
+                "name": "Práčky",
+                "link": "/pracky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=394"
+            },
+            {
+                "name": "Sporáky",
+                "link": "/sporaky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=395"
+            },
+            {
+                "name": "Sušičky",
+                "link": "/susicky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=396"
+            },
+            {
+                "name": "Umývačky riadu",
+                "link": "/umyvacky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=393"
+            },
+            {
+                "name": "Ostatné - biela",
+                "link": "/ostatnebila/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=397"
+            },
+            {
+                "name": "Autorádiá",
+                "link": "/autoradia/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=398"
+            },
+            {
+                "name": "Domáce kiná",
+                "link": "/kina/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=400"
+            },
+            {
+                "name": "Fotoaparáty"
+            },
+            {
+                "name": "GPS navigácia"
+            },
+            {
+                "name": "Hifi systémy, Rádiá",
+                "link": "/hifi/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=402"
+            },
+            {
+                "name": "Hudobné nástroje"
+            },
+            {
+                "name": "MP3 přehrávače"
+            },
+            {
+                "name": "Projektory",
+                "link": "/projektory/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=404"
+            },
+            {
+                "name": "Repro sústavy",
+                "link": "/repro/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=405"
+            },
+            {
+                "name": "Slúchadlá",
+                "link": "/sluchadla/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=399"
+            },
+            {
+                "name": "Televízory",
+                "link": "/televizory/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=406"
+            },
+            {
+                "name": "Video, DVD prehrávače",
+                "link": "/dvd/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=407"
+            },
+            {
+                "name": "Videokamery"
+            },
+            {
+                "name": "Zosilňovače",
+                "link": "/zosilnovace/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=409"
+            },
+            {
+                "name": "Ostatné audio video",
+                "link": "/ostatneav/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=410"
+            },
+            {
+                "name": "Epilátory, Depilátory",
+                "link": "/depilatory/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=411"
+            },
+            {
+                "name": "Fény, Kulmy",
+                "link": "/feny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=412"
+            },
+            {
+                "name": "Holiace strojčeky",
+                "link": "/holiace/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=413"
+            },
+            {
+                "name": "Kávovary",
+                "link": "/kavovary/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=414"
+            },
+            {
+                "name": "Nabíjačky batérií",
+                "link": "/nabijacky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=415"
+            },
+            {
+                "name": "Ručné šľahače, Mixéry",
+                "link": "/mixery/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=421"
+            },
+            {
+                "name": "Svietidlá, Lampy",
+                "link": "/lampy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=416"
+            },
+            {
+                "name": "Šijacie stroje",
+                "link": "/sijacie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=417"
+            },
+            {
+                "name": "Vysávače",
+                "link": "/vysavace/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=418"
+            },
+            {
+                "name": "Vysielačky",
+                "link": "/vysielacky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=419"
+            },
+            {
+                "name": "Zvlhčovače vzduchu",
+                "link": "/zvlhcovace/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=420"
+            },
+            {
+                "name": "Žehličky",
+                "link": "/zehlicky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=422"
+            },
+            {
+                "name": "Ostatné drobné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=el&cat=423"
+            }
+        ]
+    },
+    {
+        "name": "Šport",
+        "link": "https://sport.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=sp",
+        "categories": [
+            {
+                "name": "Fitness, jogging",
+                "link": "/fitness/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=320"
+            },
+            {
+                "name": "Golf",
+                "link": "/golf/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=321"
+            },
+            {
+                "name": "Futbal",
+                "link": "/futbal/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=322"
+            },
+            {
+                "name": "In-lines, Skateboarding",
+                "link": "/korcule/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=323"
+            },
+            {
+                "name": "Kemping",
+                "link": "/kemping/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=319"
+            },
+            {
+                "name": "Letectvo",
+                "link": "/letectvo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=446"
+            },
+            {
+                "name": "Loptové hry",
+                "link": "/loptove/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=324"
+            },
+            {
+                "name": "Poľovníctvo, lov",
+                "link": "/lov/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=325"
+            },
+            {
+                "name": "Paintball",
+                "link": "/paintball/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=326"
+            },
+            {
+                "name": "Rybolov",
+                "link": "/rybareni/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=327"
+            },
+            {
+                "name": "Spoločenské hry",
+                "link": "/hry/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=328"
+            },
+            {
+                "name": "Tenis, squash, badminton",
+                "link": "/tenis/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=329"
+            },
+            {
+                "name": "Turistika, horolezectvo",
+                "link": "/turistika/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=330"
+            },
+            {
+                "name": "Vodné športy, potápanie",
+                "link": "/vodni/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=331"
+            },
+            {
+                "name": "Všetko ostatné",
+                "link": "/ostatni/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=332"
+            },
+            {
+                "name": "Detské bicykle"
+            },
+            {
+                "name": "Kolobežky",
+                "link": "/kolobezky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=444"
+            },
+            {
+                "name": "Horské bicykle",
+                "link": "/horska/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=333"
+            },
+            {
+                "name": "Cestné bicykle",
+                "link": "/cestne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=334"
+            },
+            {
+                "name": "Súčiastky a diely",
+                "link": "/soucastky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=335"
+            },
+            {
+                "name": "Ostatná cyklistika",
+                "link": "/cyklistika/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=336"
+            },
+            {
+                "name": "Bežkovanie",
+                "link": "/bezky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=445"
+            },
+            {
+                "name": "Lyžovanie",
+                "link": "/lyze/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=337"
+            },
+            {
+                "name": "Skialpy",
+                "link": "/skialpy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=459"
+            },
+            {
+                "name": "Snowboarding",
+                "link": "/snowboard/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=338"
+            },
+            {
+                "name": "Hokej, korčuľovanie",
+                "link": "/hokej/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=339"
+            },
+            {
+                "name": "Ostatné zimné",
+                "link": "/zimni/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sp&cat=340"
+            }
+        ]
+    },
+    {
+        "name": "Hudba",
+        "link": "https://hudba.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=hu",
+        "categories": [
+            {
+                "name": "Bicie nástroje",
+                "link": "/bicie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=285"
+            },
+            {
+                "name": "Dychové nástroje",
+                "link": "/dychove/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=286"
+            },
+            {
+                "name": "Klávesové nástroje",
+                "link": "/klavesove/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=287"
+            },
+            {
+                "name": "Sláčikové nástroje",
+                "link": "/slacikove/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=288"
+            },
+            {
+                "name": "Strunové nástroje",
+                "link": "/strunove/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=289"
+            },
+            {
+                "name": "Ostatné nástroje",
+                "link": "/nastroje/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=290"
+            },
+            {
+                "name": "DVD, CD, MC, LP",
+                "link": "/nahravky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=291"
+            },
+            {
+                "name": "Hudobníci a skupiny",
+                "link": "/skupiny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=292"
+            },
+            {
+                "name": "Koncerty",
+                "link": "/koncerty/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=293"
+            },
+            {
+                "name": "Výuka hudby"
+            },
+            {
+                "name": "Noty, texty",
+                "link": "/noty/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=295"
+            },
+            {
+                "name": "Skúšobne",
+                "link": "/skusobne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=296"
+            },
+            {
+                "name": "Svetelná technika",
+                "link": "/svetelna/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=297"
+            },
+            {
+                "name": "Vstupenky"
+            },
+            {
+                "name": "Zvuková technika",
+                "link": "/zvukova/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=299"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=hu&cat=300"
+            }
+        ]
+    },
+    {
+        "name": "Vstupenky",
+        "link": "https://vstupenky.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=vs",
+        "categories": [
+            {
+                "name": "Darčekové poukážky",
+                "link": "/poukazky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=231"
+            },
+            {
+                "name": "Diaľničné známky",
+                "link": "/znamky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=232"
+            },
+            {
+                "name": "Cestovné lístky",
+                "link": "/listky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=225"
+            },
+            {
+                "name": "Letenky",
+                "link": "/letenky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=226"
+            },
+            {
+                "name": "Permanentky",
+                "link": "/permanentky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=236"
+            },
+            {
+                "name": "Divadlo",
+                "link": "/divadlo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=227"
+            },
+            {
+                "name": "Festivaly",
+                "link": "/festivaly/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=228"
+            },
+            {
+                "name": "Hudba, Koncerty",
+                "link": "/hudba/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=229"
+            },
+            {
+                "name": "Pre deti",
+                "link": "/deti/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=233"
+            },
+            {
+                "name": "Spoločenské akcie",
+                "link": "/spolocenske/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=230"
+            },
+            {
+                "name": "Šport",
+                "link": "/sport/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=234"
+            },
+            {
+                "name": "Výstavy",
+                "link": "/vystavy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=235"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=vs&cat=237"
+            }
+        ]
+    },
+    {
+        "name": "Knihy",
+        "link": "https://knihy.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=kn",
+        "categories": [
+            {
+                "name": "Beletria",
+                "link": "/beletria/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=366"
+            },
+            {
+                "name": "Cudzojazyčná literatúra",
+                "link": "/cudzojazycna/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=388"
+            },
+            {
+                "name": "Časopisy",
+                "link": "/casopisy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=367"
+            },
+            {
+                "name": "Detektívky",
+                "link": "/detektivky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=368"
+            },
+            {
+                "name": "Detská literatúra",
+                "link": "/detska/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=369"
+            },
+            {
+                "name": "Dráma",
+                "link": "/drama/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=370"
+            },
+            {
+                "name": "Encyklopédie",
+                "link": "/encyklopedie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=371"
+            },
+            {
+                "name": "Ezoterika",
+                "link": "/ezoterika/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=372"
+            },
+            {
+                "name": "Historické romány",
+                "link": "/historicke/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=373"
+            },
+            {
+                "name": "Hobby, odborné knihy",
+                "link": "/hobby/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=374"
+            },
+            {
+                "name": "Kuchárky",
+                "link": "/kucharky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=375"
+            },
+            {
+                "name": "Mapy, cestovanie",
+                "link": "/mapy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=376"
+            },
+            {
+                "name": "Počítačová literatúra",
+                "link": "/pocitacova/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=378"
+            },
+            {
+                "name": "Pre mládež",
+                "link": "/mladez/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=379"
+            },
+            {
+                "name": "Romány pre ženy",
+                "link": "/zeny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=380"
+            },
+            {
+                "name": "Sci-fi, Fantasy",
+                "link": "/scifi/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=381"
+            },
+            {
+                "name": "Učebnice, skriptá - ZŠ",
+                "link": "/ucebnicezs/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=386"
+            },
+            {
+                "name": "Učebnice, skriptá - SŠ",
+                "link": "/ucebnice/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=383"
+            },
+            {
+                "name": "Učebnice, skriptá - VŠ",
+                "link": "/skripta/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=382"
+            },
+            {
+                "name": "Učebnice, skriptá - Jazykové",
+                "link": "/ucebnicejazykove/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=387"
+            },
+            {
+                "name": "Zábavná literatúra",
+                "link": "/zabavna/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=384"
+            },
+            {
+                "name": "Zdravý životný štýl",
+                "link": "/zdravi/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=385"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=kn&cat=377"
+            }
+        ]
+    },
+    {
+        "name": "Nábytok",
+        "link": "https://nabytok.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=na",
+        "categories": [
+            {
+                "name": "Detský nábytok"
+            },
+            {
+                "name": "Dvere, brány"
+            },
+            {
+                "name": "Jedálenské kúty",
+                "link": "/jedalenske/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=268"
+            },
+            {
+                "name": "Knižnice",
+                "link": "/kniznice/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=269"
+            },
+            {
+                "name": "Koberce a podlahová krytina",
+                "link": "/koberce/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=270"
+            },
+            {
+                "name": "Kreslá a gauče",
+                "link": "/kresla/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=271"
+            },
+            {
+                "name": "Kuchyne",
+                "link": "/kuchyne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=272"
+            },
+            {
+                "name": "Kúpeľne",
+                "link": "/kupelne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=274"
+            },
+            {
+                "name": "Lampy, osvetlenie",
+                "link": "/lampy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=275"
+            },
+            {
+                "name": "Matrace",
+                "link": "/matrace/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=276"
+            },
+            {
+                "name": "Obývacie steny",
+                "link": "/obyvacie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=273"
+            },
+            {
+                "name": "Postele",
+                "link": "/postele/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=277"
+            },
+            {
+                "name": "Sedacie súpravy",
+                "link": "/sedacie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=278"
+            },
+            {
+                "name": "Skrine",
+                "link": "/skrine/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=279"
+            },
+            {
+                "name": "Spálne",
+                "link": "/spalne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=280"
+            },
+            {
+                "name": "Stoličky",
+                "link": "/stolicky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=281"
+            },
+            {
+                "name": "Stoly",
+                "link": "/stoly/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=282"
+            },
+            {
+                "name": "Záhradný nábytok",
+                "link": "/zahradny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=283"
+            },
+            {
+                "name": "Doplnky",
+                "link": "/doplnky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=425"
+            },
+            {
+                "name": "Ostatný nábytok",
+                "link": "/nabytok/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=na&cat=284"
+            }
+        ]
+    },
+    {
+        "name": "Oblečenie",
+        "link": "https://oblecenie.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=ob",
+        "categories": [
+            {
+                "name": "Blúzky",
+                "link": "/bluzky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=51"
+            },
+            {
+                "name": "Bundy a Kabáty",
+                "link": "/bundy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=52"
+            },
+            {
+                "name": "Čiapky, Šatky",
+                "link": "/ciapky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=53"
+            },
+            {
+                "name": "Džínsy",
+                "link": "/dzinsy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=54"
+            },
+            {
+                "name": "Funkčné prádlo",
+                "link": "/pradlo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=55"
+            },
+            {
+                "name": "Košele",
+                "link": "/kosele/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=56"
+            },
+            {
+                "name": "Kožené oblečenie",
+                "link": "/kozene/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=57"
+            },
+            {
+                "name": "Mikiny",
+                "link": "/mikiny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=58"
+            },
+            {
+                "name": "Nohavice",
+                "link": "/nohavice/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=59"
+            },
+            {
+                "name": "Obleky, Saká",
+                "link": "/obleky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=60"
+            },
+            {
+                "name": "Plavky",
+                "link": "/plavky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=61"
+            },
+            {
+                "name": "Rukavice a Šály",
+                "link": "/rukavice/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=63"
+            },
+            {
+                "name": "Rúška",
+                "link": "/ruska/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=458"
+            },
+            {
+                "name": "Spodná bielizeň",
+                "link": "/bielizen/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=64"
+            },
+            {
+                "name": "Sukne",
+                "link": "/sukne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=65"
+            },
+            {
+                "name": "Svadobné šaty",
+                "link": "/svadobne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=66"
+            },
+            {
+                "name": "Svetre",
+                "link": "/svetre/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=67"
+            },
+            {
+                "name": "Šaty, Kostýmy",
+                "link": "/saty/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=68"
+            },
+            {
+                "name": "Šortky",
+                "link": "/sortky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=69"
+            },
+            {
+                "name": "Športové oblečenie",
+                "link": "/sportove/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=70"
+            },
+            {
+                "name": "Tehotenské oblečenie",
+                "link": "/tehulky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=62"
+            },
+            {
+                "name": "Tričká, roláky, tielka",
+                "link": "/tricka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=71"
+            },
+            {
+                "name": "Doplnky",
+                "link": "/doplnky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=72"
+            },
+            {
+                "name": "Hodinky",
+                "link": "/hodinky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=73"
+            },
+            {
+                "name": "Kabelky",
+                "link": "/kabelky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=74"
+            },
+            {
+                "name": "Plecniaky a kufre",
+                "link": "/plecniaky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=75"
+            },
+            {
+                "name": "Topánky, obuv",
+                "link": "/obuv/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=76"
+            },
+            {
+                "name": "Šperky",
+                "link": "/sperky/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=77"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=ob&cat=78"
+            }
+        ]
+    },
+    {
+        "name": "Služby",
+        "link": "https://sluzby.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=sl",
+        "categories": [
+            {
+                "name": "Auto Moto",
+                "link": "/automoto/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=426"
+            },
+            {
+                "name": "Cestovanie",
+                "link": "/cestovanie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=167"
+            },
+            {
+                "name": "Domáce práce",
+                "link": "/domaca/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=168"
+            },
+            {
+                "name": "Ezoterika",
+                "link": "/ezoterika/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=427"
+            },
+            {
+                "name": "IT, webdesign",
+                "link": "/it/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=171"
+            },
+            {
+                "name": "Kone - služby",
+                "link": "/ustajnenie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=437"
+            },
+            {
+                "name": "Kurzy a školenia",
+                "link": "/skolenia/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=172"
+            },
+            {
+                "name": "Opravy a servis",
+                "link": "/opravy/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=428"
+            },
+            {
+                "name": "Organizovanie akcií",
+                "link": "/organizovanie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=429"
+            },
+            {
+                "name": "Požičovne",
+                "link": "/pozicovne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=430"
+            },
+            {
+                "name": "Právo a bezpečnosť",
+                "link": "/pravo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=431"
+            },
+            {
+                "name": "Prekladateľstvo",
+                "link": "/prekladatelstvo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=173"
+            },
+            {
+                "name": "Preprava a sťahovanie",
+                "link": "/stahovanie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=174"
+            },
+            {
+                "name": "Realitné služby",
+                "link": "/realitne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=432"
+            },
+            {
+                "name": "Reklama na auto",
+                "link": "/reklama/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=183"
+            },
+            {
+                "name": "Reklamné plochy ostatné",
+                "link": "/reklamne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=184"
+            },
+            {
+                "name": "Remeselné a stavebné práce",
+                "link": "/remesla/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=175"
+            },
+            {
+                "name": "Služby pre zvieratá",
+                "link": "/zvierata/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=43"
+            },
+            {
+                "name": "Sprostredkovateľské služby",
+                "link": "/sprostredkovatelske/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=176"
+            },
+            {
+                "name": "Stráženie detí",
+                "link": "/strazenie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=178"
+            },
+            {
+                "name": "Tvorivá práca",
+                "link": "/tvoriva/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=434"
+            },
+            {
+                "name": "Ubytovanie",
+                "link": "/ubytovanie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=179"
+            },
+            {
+                "name": "Účtovníctvo, poradenstvo",
+                "link": "/financne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=170"
+            },
+            {
+                "name": "Upratovanie",
+                "link": "/upratovanie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=180"
+            },
+            {
+                "name": "Výroba",
+                "link": "/vyroba/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=433"
+            },
+            {
+                "name": "Výuka, doučovanie",
+                "link": "/doucovanie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=169"
+            },
+            {
+                "name": "Výuka hudby",
+                "link": "/vyuka/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=185"
+            },
+            {
+                "name": "Zdravie a krása",
+                "link": "/zdravie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=182"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=sl&cat=181"
+            }
+        ]
+    },
+    {
+        "name": "Ostatné",
+        "link": "https://ostatne.bazos.sk",
+        "section_rss": "https://www.bazos.sk/rss.php?rub=os",
+        "categories": [
+            {
+                "name": "Mince, bankovky",
+                "link": "/numizmatika/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=os&cat=454"
+            },
+            {
+                "name": "Modelárstvo",
+                "link": "/modelarstvo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=os&cat=453"
+            },
+            {
+                "name": "Potraviny",
+                "link": "/potraviny/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=os&cat=201"
+            },
+            {
+                "name": "Sklo, keramika",
+                "link": "/sklo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=os&cat=203"
+            },
+            {
+                "name": "Starožitnosti",
+                "link": "/starozitnosti/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=os&cat=202"
+            },
+            {
+                "name": "Šperky, hodinky"
+            },
+            {
+                "name": "Umelecké predmety",
+                "link": "/umelecke/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=os&cat=204"
+            },
+            {
+                "name": "Zberateľstvo",
+                "link": "/zberatelstvo/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=os&cat=205"
+            },
+            {
+                "name": "Zdravie a krása",
+                "link": "/zdravie/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=os&cat=206"
+            },
+            {
+                "name": "Známky, pohľadnice",
+                "link": "/filatelia/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=os&cat=455"
+            },
+            {
+                "name": "Ostatné",
+                "link": "/ostatne/",
+                "category_rss": "https://www.bazos.sk/rss.php?rub=os&cat=207"
+            }
+        ]
+    }
+]
