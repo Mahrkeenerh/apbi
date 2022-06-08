@@ -26,8 +26,18 @@ def basic_print() -> None:
 
     sections = json.load(open("assets/raw_sections.json", encoding="utf-8"))
 
-    with open("apbi/models/sections.py", "w", encoding="utf-8") as outfile:
-        print('"""All sections and categories from bazos"""', file=outfile)
+    with open("apbi/models/sections/sections.py", "w", encoding="utf-8") as outfile:
+        print('"""All sections and categories from bazos."""', file=outfile)
+        print(file=outfile)
+        print(file=outfile)
+        print("from typing import Optional, Type", file=outfile)
+        # print(file=outfile)
+        # print(file=outfile)
+
+        # for section in sections:
+        #     name = clean(f"SECTION_{section['name'].upper()}")
+        #     print(f'{name}: Optional[Type["{name}"]] = None', file=outfile)
+
         print(file=outfile)
         print(file=outfile)
         print("class Category:", file=outfile)
@@ -74,7 +84,10 @@ def basic_print() -> None:
 
             for category in section["categories"]:
                 category_class_name = clean(category['name'].upper())
-                print(f"    {category_class_name} = None", file=outfile)
+                print(
+                    f'    {category_class_name}: Optional[Type["{category_class_name}"]] = None',
+                    file=outfile
+                )
 
             print("\n", file=outfile)
 
@@ -93,6 +106,12 @@ def basic_print() -> None:
                 print(f'    category_rss = "{category_rss}"', file=outfile)
                 print("\n", file=outfile)
 
+        # for section in sections:
+        #     section_class_name = clean(f"SECTION_{section['name'].upper()}")
+        #     print(f"{section_class_name} = {section_class_name}", file=outfile)
+
+        # print(file=outfile)
+
         for section in sections:
             section_class_name = clean(f"SECTION_{section['name'].upper()}")
 
@@ -110,12 +129,12 @@ def basic_print() -> None:
 def fix_issues() -> None:
     """Fix issues with sections and categories."""
 
-    with open("apbi/models/sections.py", "r", encoding="utf-8") as infile:
+    with open("apbi/models/sections/sections.py", "r", encoding="utf-8") as infile:
         contents = unidecode("".join(infile.readlines()[:-1]))
 
     fix_mapping = json.load(open("assets/fix_mapping.json", encoding="utf-8"))
 
-    with open("apbi/models/sections.py", "w", encoding="utf-8") as outfile:
+    with open("apbi/models/sections/sections.py", "w", encoding="utf-8") as outfile:
         for fix in fix_mapping:
             contents = contents.replace(fix, fix_mapping[fix])
         
