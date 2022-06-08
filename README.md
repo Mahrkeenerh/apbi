@@ -50,6 +50,12 @@ Všetky otázky je možné smerovať na [Discussions](https://github.com/Mahrkee
 ## Bazos refresh cycle
 
 
+<<<<<<< HEAD
 Z vlastného testovania vyšlo, že stránka Bazošu a jej kategórie limit asi nemajú (prešlo približne 40 000 požiadaviek). Konkrétne inzeráty asi tiež nie sú obmedzené (prešlo viac ako 10 000 požiadaviek). Čo ale limitované je, je vyhľadávanie, a je limitované globálne pre celý Bazoš. Maximálny počet požiadaviek je 98. Za vyhľadávanie sa považuje hocičo, kde je obsiahnutý vyhľadávací reťazec (teda aj preklik na druhú stranu). Aj RSS kanál má limit maximálne 50 požiadaviek. Tieto limity sa obnovia až po internej aktualizácii serveru.
 
 Bazoš nepridáva nové inzeráty okamžite, ako ich používatelia pridajú, ale server sa obnovuje každých približne 5-20 minút, kedy sú pridané všetky chýbajúce inzeráty, a vymazané všetky staré. Vždy pri tomto internom obnovení sa aj obnovia limity na požiadavky.
+=======
+Z vlastného testovania vyšlo, že klasická stránka Bazošu asi limit nemá (úspešne prešlo približne 40 000 požiadaviek v priebehu asi 20 minút). RSS kanál ale má maximálne 50 požiadaviek, následne prestane odpovedať, a obnoví sa až po internej aktualizácii serveru.
+
+Bazoš nepridáva nové inzeráty okamžite, ako ich používatelia pridajú, ale server sa obnovuje každých približne 5-20 minút, kedy sú pridané všetky chýbajúce inzeráty, a vymazané všetky staré. Vždy pri tomto internom obnovení sa aj obnoví 50 nových RSS požiadaviek.
+>>>>>>> master
