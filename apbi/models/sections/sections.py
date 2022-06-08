@@ -1,4 +1,7 @@
-"""All sections and categories from bazos"""
+"""All sections and categories from bazos."""
+
+
+from typing import Optional, Type
 
 
 class Category:
@@ -36,26 +39,26 @@ class SECTION_ZVIERATA(Category):
     section_name = "zvierata"
     section_rss = "zv"
 
-    AKVARIJNE_RYBICKY = None
-    DROBNE_CICAVCE = None
-    KONE = None
-    KONE_POTREBY = None
-    KONE_SLUZBY = None
-    MACKY = None
-    PSY = None
-    VTACTVO = None
-    TERARIJNE_ZVIERATA = None
-    OSTATNE_DOMACE = None
-    KRYTIE = None
-    STRATENI_A_NAJDENI = None
-    CHOVATELSKE_POTREBY = None
-    SLUZBY_PRE_ZVIERATA = None
-    HYDINA = None
-    KRALIKY = None
-    OVCE_A_KOZY = None
-    PRASATA = None
-    DOBYTOK = None
-    OSTATNE_HOSPODARSKE = None
+    AKVARIJNE_RYBICKY: Optional[Type["AKVARIJNE_RYBICKY"]] = None
+    DROBNE_CICAVCE: Optional[Type["DROBNE_CICAVCE"]] = None
+    KONE: Optional[Type["KONE"]] = None
+    KONE_POTREBY: Optional[Type["KONE_POTREBY"]] = None
+    KONE_SLUZBY: Optional[Type["KONE_SLUZBY"]] = None
+    MACKY: Optional[Type["MACKY"]] = None
+    PSY: Optional[Type["PSY"]] = None
+    VTACTVO: Optional[Type["VTACTVO"]] = None
+    TERARIJNE_ZVIERATA: Optional[Type["TERARIJNE_ZVIERATA"]] = None
+    OSTATNE_DOMACE: Optional[Type["OSTATNE_DOMACE"]] = None
+    KRYTIE: Optional[Type["KRYTIE"]] = None
+    STRATENI_A_NAJDENI: Optional[Type["STRATENI_A_NAJDENI"]] = None
+    CHOVATELSKE_POTREBY: Optional[Type["CHOVATELSKE_POTREBY"]] = None
+    SLUZBY_PRE_ZVIERATA: Optional[Type["SLUZBY_PRE_ZVIERATA"]] = None
+    HYDINA: Optional[Type["HYDINA"]] = None
+    KRALIKY: Optional[Type["KRALIKY"]] = None
+    OVCE_A_KOZY: Optional[Type["OVCE_A_KOZY"]] = None
+    PRASATA: Optional[Type["PRASATA"]] = None
+    DOBYTOK: Optional[Type["DOBYTOK"]] = None
+    OSTATNE_HOSPODARSKE: Optional[Type["OSTATNE_HOSPODARSKE"]] = None
 
 
 class AKVARIJNE_RYBICKY(SECTION_ZVIERATA):
@@ -190,39 +193,39 @@ class SECTION_DETI(Category):
     section_name = "deti"
     section_rss = "de"
 
-    AUTOSEDACKY = None
-    BABY_MONITORY = None
-    BICYKLE = None
-    DETSKA_LITERATURA = None
-    HRACKY = None
-    CHODITKA_A_HOPSADLA = None
-    KOCIKY = None
-    KOJENECKE_POTREBY = None
-    NABYTOK_PRE_DETI = None
-    NOSICE = None
-    ODRAZADLA = None
-    SEDACKY_NA_BICYKEL = None
-    SPORTOVE_POTREBY = None
-    SKOLSKE_POTREBY = None
-    STRAZENIE_DETI = None
-    OSTATNE = None
-    BODY_DUPACKY_A_OVERALY = None
-    BUNDY_A_KABATIKY = None
-    CIAPKY_A_KLOBUCIKY = None
-    NOHAVICE_KRATASY_A_TEPLAKY = None
-    KOMBINEZY = None
-    KOMPLETY = None
-    MIKINY_A_SVETRE = None
-    OBUV = None
-    PLAVKY = None
-    PONOZKY_A_PANCUSKY = None
-    PYZAMKA_A_ZUPANCEKY = None
-    RUKAVICE_A_SALY = None
-    SPODNA_BIELIZEN = None
-    SUKNICKY_A_SATOCKY = None
-    TEHOTENSKE_OBLECENIE = None
-    TRICKA_A_KOSIELKY = None
-    OSTATNE_OBLECENIE = None
+    AUTOSEDACKY: Optional[Type["AUTOSEDACKY"]] = None
+    BABY_MONITORY: Optional[Type["BABY_MONITORY"]] = None
+    BICYKLE: Optional[Type["BICYKLE"]] = None
+    DETSKA_LITERATURA: Optional[Type["DETSKA_LITERATURA"]] = None
+    HRACKY: Optional[Type["HRACKY"]] = None
+    CHODITKA_A_HOPSADLA: Optional[Type["CHODITKA_A_HOPSADLA"]] = None
+    KOCIKY: Optional[Type["KOCIKY"]] = None
+    KOJENECKE_POTREBY: Optional[Type["KOJENECKE_POTREBY"]] = None
+    NABYTOK_PRE_DETI: Optional[Type["NABYTOK_PRE_DETI"]] = None
+    NOSICE: Optional[Type["NOSICE"]] = None
+    ODRAZADLA: Optional[Type["ODRAZADLA"]] = None
+    SEDACKY_NA_BICYKEL: Optional[Type["SEDACKY_NA_BICYKEL"]] = None
+    SPORTOVE_POTREBY: Optional[Type["SPORTOVE_POTREBY"]] = None
+    SKOLSKE_POTREBY: Optional[Type["SKOLSKE_POTREBY"]] = None
+    STRAZENIE_DETI: Optional[Type["STRAZENIE_DETI"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
+    BODY_DUPACKY_A_OVERALY: Optional[Type["BODY_DUPACKY_A_OVERALY"]] = None
+    BUNDY_A_KABATIKY: Optional[Type["BUNDY_A_KABATIKY"]] = None
+    CIAPKY_A_KLOBUCIKY: Optional[Type["CIAPKY_A_KLOBUCIKY"]] = None
+    NOHAVICE_KRATASY_A_TEPLAKY: Optional[Type["NOHAVICE_KRATASY_A_TEPLAKY"]] = None
+    KOMBINEZY: Optional[Type["KOMBINEZY"]] = None
+    KOMPLETY: Optional[Type["KOMPLETY"]] = None
+    MIKINY_A_SVETRE: Optional[Type["MIKINY_A_SVETRE"]] = None
+    OBUV: Optional[Type["OBUV"]] = None
+    PLAVKY: Optional[Type["PLAVKY"]] = None
+    PONOZKY_A_PANCUSKY: Optional[Type["PONOZKY_A_PANCUSKY"]] = None
+    PYZAMKA_A_ZUPANCEKY: Optional[Type["PYZAMKA_A_ZUPANCEKY"]] = None
+    RUKAVICE_A_SALY: Optional[Type["RUKAVICE_A_SALY"]] = None
+    SPODNA_BIELIZEN: Optional[Type["SPODNA_BIELIZEN"]] = None
+    SUKNICKY_A_SATOCKY: Optional[Type["SUKNICKY_A_SATOCKY"]] = None
+    TEHOTENSKE_OBLECENIE: Optional[Type["TEHOTENSKE_OBLECENIE"]] = None
+    TRICKA_A_KOSIELKY: Optional[Type["TRICKA_A_KOSIELKY"]] = None
+    OSTATNE_OBLECENIE: Optional[Type["OSTATNE_OBLECENIE"]] = None
 
 
 class AUTOSEDACKY(SECTION_DETI):
@@ -441,31 +444,31 @@ class SECTION_REALITY(Category):
     section_name = "reality"
     section_rss = "re"
 
-    BYTY = None
-    DOMY = None
-    NOVE_PROJEKTY = None
-    GARAZE = None
-    HOTELY_RESTAURACIE = None
-    CHALUPY_CHATY = None
-    KANCELARIE = None
-    OBCHODNE_PRIESTORY = None
-    POZEMKY = None
-    SKLADY = None
-    ZAHRADY = None
-    OSTATNE = None
-    BYTY = None
-    DOMY = None
-    NOVE_PROJEKTY = None
-    PODNAJOM_SPOLUBYVAJUCI = None
-    GARAZE = None
-    HOTELY_RESTAURACIE = None
-    UBYTOVANIE = None
-    KANCELARIE = None
-    OBCHODNE_PRIESTORY = None
-    POZEMKY = None
-    SKLADY = None
-    ZAHRADY = None
-    OSTATNE = None
+    BYTY: Optional[Type["BYTY"]] = None
+    DOMY: Optional[Type["DOMY"]] = None
+    NOVE_PROJEKTY: Optional[Type["NOVE_PROJEKTY"]] = None
+    GARAZE: Optional[Type["GARAZE"]] = None
+    HOTELY_RESTAURACIE: Optional[Type["HOTELY_RESTAURACIE"]] = None
+    CHALUPY_CHATY: Optional[Type["CHALUPY_CHATY"]] = None
+    KANCELARIE: Optional[Type["KANCELARIE"]] = None
+    OBCHODNE_PRIESTORY: Optional[Type["OBCHODNE_PRIESTORY"]] = None
+    POZEMKY: Optional[Type["POZEMKY"]] = None
+    SKLADY: Optional[Type["SKLADY"]] = None
+    ZAHRADY: Optional[Type["ZAHRADY"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
+    BYTY: Optional[Type["BYTY"]] = None
+    DOMY: Optional[Type["DOMY"]] = None
+    NOVE_PROJEKTY: Optional[Type["NOVE_PROJEKTY"]] = None
+    PODNAJOM_SPOLUBYVAJUCI: Optional[Type["PODNAJOM_SPOLUBYVAJUCI"]] = None
+    GARAZE: Optional[Type["GARAZE"]] = None
+    HOTELY_RESTAURACIE: Optional[Type["HOTELY_RESTAURACIE"]] = None
+    UBYTOVANIE: Optional[Type["UBYTOVANIE"]] = None
+    KANCELARIE: Optional[Type["KANCELARIE"]] = None
+    OBCHODNE_PRIESTORY: Optional[Type["OBCHODNE_PRIESTORY"]] = None
+    POZEMKY: Optional[Type["POZEMKY"]] = None
+    SKLADY: Optional[Type["SKLADY"]] = None
+    ZAHRADY: Optional[Type["ZAHRADY"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class BYTY(SECTION_REALITY):
@@ -642,30 +645,30 @@ class SECTION_PRACA(Category):
     section_name = "praca"
     section_rss = "pr"
 
-    ADMINISTRATIVA = None
-    CHEMIA_A_POTRAVINARSTVO = None
-    DOPRAVA_A_LOGISTIKA = None
-    FINANCIE_A_EKONOMIKA = None
-    IT_A_TELEKOMUNIKACIE = None
-    MARKETING_A_REKLAMA = None
-    MANAGEMENT = None
-    OBCHOD_A_PREDAJ = None
-    OBRANA_A_BEZPECNOST = None
-    POHOSTINSTVA_A_UBYTOVANIE = None
-    PRACA_V_DOMACNOSTI = None
-    PRAVO_LEGISLATIVA = None
-    PRIEMYSEL_A_VYROBA = None
-    REMESELNE_PRACE = None
-    SERVIS_A_SLUZBY = None
-    STAVEBNICTVO = None
-    TECHNIKA_A_ENERGETIKA = None
-    TLAC_A_POLYGRAFIA = None
-    VYSKUM_A_VYVOJ = None
-    VZDELAVANIE_A_PERSONALISTIKA = None
-    ZDRAVOTNICTVO = None
-    POLNOHOSPODARSTVO = None
-    BRIGADY = None
-    OSTATNE = None
+    ADMINISTRATIVA: Optional[Type["ADMINISTRATIVA"]] = None
+    CHEMIA_A_POTRAVINARSTVO: Optional[Type["CHEMIA_A_POTRAVINARSTVO"]] = None
+    DOPRAVA_A_LOGISTIKA: Optional[Type["DOPRAVA_A_LOGISTIKA"]] = None
+    FINANCIE_A_EKONOMIKA: Optional[Type["FINANCIE_A_EKONOMIKA"]] = None
+    IT_A_TELEKOMUNIKACIE: Optional[Type["IT_A_TELEKOMUNIKACIE"]] = None
+    MARKETING_A_REKLAMA: Optional[Type["MARKETING_A_REKLAMA"]] = None
+    MANAGEMENT: Optional[Type["MANAGEMENT"]] = None
+    OBCHOD_A_PREDAJ: Optional[Type["OBCHOD_A_PREDAJ"]] = None
+    OBRANA_A_BEZPECNOST: Optional[Type["OBRANA_A_BEZPECNOST"]] = None
+    POHOSTINSTVA_A_UBYTOVANIE: Optional[Type["POHOSTINSTVA_A_UBYTOVANIE"]] = None
+    PRACA_V_DOMACNOSTI: Optional[Type["PRACA_V_DOMACNOSTI"]] = None
+    PRAVO_LEGISLATIVA: Optional[Type["PRAVO_LEGISLATIVA"]] = None
+    PRIEMYSEL_A_VYROBA: Optional[Type["PRIEMYSEL_A_VYROBA"]] = None
+    REMESELNE_PRACE: Optional[Type["REMESELNE_PRACE"]] = None
+    SERVIS_A_SLUZBY: Optional[Type["SERVIS_A_SLUZBY"]] = None
+    STAVEBNICTVO: Optional[Type["STAVEBNICTVO"]] = None
+    TECHNIKA_A_ENERGETIKA: Optional[Type["TECHNIKA_A_ENERGETIKA"]] = None
+    TLAC_A_POLYGRAFIA: Optional[Type["TLAC_A_POLYGRAFIA"]] = None
+    VYSKUM_A_VYVOJ: Optional[Type["VYSKUM_A_VYVOJ"]] = None
+    VZDELAVANIE_A_PERSONALISTIKA: Optional[Type["VZDELAVANIE_A_PERSONALISTIKA"]] = None
+    ZDRAVOTNICTVO: Optional[Type["ZDRAVOTNICTVO"]] = None
+    POLNOHOSPODARSTVO: Optional[Type["POLNOHOSPODARSTVO"]] = None
+    BRIGADY: Optional[Type["BRIGADY"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class ADMINISTRATIVA(SECTION_PRACA):
@@ -842,50 +845,50 @@ class SECTION_AUTO(Category):
     section_name = "auto"
     section_rss = "au"
 
-    ALFA_ROMEO = None
-    AUDI = None
-    BMW = None
-    CITROEN = None
-    DACIA = None
-    FIAT = None
-    FORD = None
-    HONDA = None
-    HYUNDAI = None
-    CHEVROLET = None
-    KIA = None
-    MAZDA = None
-    MERCEDESBENZ = None
-    MITSUBISHI = None
-    NISSAN = None
-    OPEL = None
-    PEUGEOT = None
-    RENAULT = None
-    SEAT = None
-    SUZUKI = None
-    SKODA = None
-    TOYOTA = None
-    VOLKSWAGEN = None
-    VOLVO = None
-    OSTATNE_ZNACKY = None
-    AUTORADIA = None
-    GPS_NAVIGACIA = None
-    HAVAROVANE = None
-    NAHRADNE_DIELY = None
-    PNEUMATIKY_KOLESA = None
-    PRISLUSENSTVO = None
-    TUNING = None
-    VETERANY = None
-    AUTOBUSY = None
-    DODAVKY = None
-    MIKROBUSY = None
-    KARAVANY_VOZIKY = None
-    NAKLADNE_AUTA = None
-    PICKUP = None
-    STROJE = None
-    OSTATNE = None
-    HAVAROVANE = None
-    NAHRADNE_DIELY = None
-    MOTOCYKLE_SKUTRE = None
+    ALFA_ROMEO: Optional[Type["ALFA_ROMEO"]] = None
+    AUDI: Optional[Type["AUDI"]] = None
+    BMW: Optional[Type["BMW"]] = None
+    CITROEN: Optional[Type["CITROEN"]] = None
+    DACIA: Optional[Type["DACIA"]] = None
+    FIAT: Optional[Type["FIAT"]] = None
+    FORD: Optional[Type["FORD"]] = None
+    HONDA: Optional[Type["HONDA"]] = None
+    HYUNDAI: Optional[Type["HYUNDAI"]] = None
+    CHEVROLET: Optional[Type["CHEVROLET"]] = None
+    KIA: Optional[Type["KIA"]] = None
+    MAZDA: Optional[Type["MAZDA"]] = None
+    MERCEDESBENZ: Optional[Type["MERCEDESBENZ"]] = None
+    MITSUBISHI: Optional[Type["MITSUBISHI"]] = None
+    NISSAN: Optional[Type["NISSAN"]] = None
+    OPEL: Optional[Type["OPEL"]] = None
+    PEUGEOT: Optional[Type["PEUGEOT"]] = None
+    RENAULT: Optional[Type["RENAULT"]] = None
+    SEAT: Optional[Type["SEAT"]] = None
+    SUZUKI: Optional[Type["SUZUKI"]] = None
+    SKODA: Optional[Type["SKODA"]] = None
+    TOYOTA: Optional[Type["TOYOTA"]] = None
+    VOLKSWAGEN: Optional[Type["VOLKSWAGEN"]] = None
+    VOLVO: Optional[Type["VOLVO"]] = None
+    OSTATNE_ZNACKY: Optional[Type["OSTATNE_ZNACKY"]] = None
+    AUTORADIA: Optional[Type["AUTORADIA"]] = None
+    GPS_NAVIGACIA: Optional[Type["GPS_NAVIGACIA"]] = None
+    HAVAROVANE: Optional[Type["HAVAROVANE"]] = None
+    NAHRADNE_DIELY: Optional[Type["NAHRADNE_DIELY"]] = None
+    PNEUMATIKY_KOLESA: Optional[Type["PNEUMATIKY_KOLESA"]] = None
+    PRISLUSENSTVO: Optional[Type["PRISLUSENSTVO"]] = None
+    TUNING: Optional[Type["TUNING"]] = None
+    VETERANY: Optional[Type["VETERANY"]] = None
+    AUTOBUSY: Optional[Type["AUTOBUSY"]] = None
+    DODAVKY: Optional[Type["DODAVKY"]] = None
+    MIKROBUSY: Optional[Type["MIKROBUSY"]] = None
+    KARAVANY_VOZIKY: Optional[Type["KARAVANY_VOZIKY"]] = None
+    NAKLADNE_AUTA: Optional[Type["NAKLADNE_AUTA"]] = None
+    PICKUP: Optional[Type["PICKUP"]] = None
+    STROJE: Optional[Type["STROJE"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
+    HAVAROVANE: Optional[Type["HAVAROVANE"]] = None
+    NAHRADNE_DIELY: Optional[Type["NAHRADNE_DIELY"]] = None
+    MOTOCYKLE_SKUTRE: Optional[Type["MOTOCYKLE_SKUTRE"]] = None
 
 
 class ALFA_ROMEO(SECTION_AUTO):
@@ -1174,21 +1177,21 @@ class SECTION_MOTOCYKLE(Category):
     section_name = "motocykle"
     section_rss = "mt"
 
-    CESTNE_MOTOCYKLE = None
-    CESTOVNE_MOTOCYKLE = None
-    ENDURO = None
-    CHOPPER = None
-    MINIBIKE = None
-    MOPEDY = None
-    SKUTRE = None
-    SKUTRE_VODNE = None
-    SKUTRE_SNEZNE = None
-    STVORKOLKY = None
-    TROJKOLKY = None
-    VETERANY = None
-    NAHRADNE_DIELY = None
-    OBLECENIE_OBUV_HELMY = None
-    OSTATNE = None
+    CESTNE_MOTOCYKLE: Optional[Type["CESTNE_MOTOCYKLE"]] = None
+    CESTOVNE_MOTOCYKLE: Optional[Type["CESTOVNE_MOTOCYKLE"]] = None
+    ENDURO: Optional[Type["ENDURO"]] = None
+    CHOPPER: Optional[Type["CHOPPER"]] = None
+    MINIBIKE: Optional[Type["MINIBIKE"]] = None
+    MOPEDY: Optional[Type["MOPEDY"]] = None
+    SKUTRE: Optional[Type["SKUTRE"]] = None
+    SKUTRE_VODNE: Optional[Type["SKUTRE_VODNE"]] = None
+    SKUTRE_SNEZNE: Optional[Type["SKUTRE_SNEZNE"]] = None
+    STVORKOLKY: Optional[Type["STVORKOLKY"]] = None
+    TROJKOLKY: Optional[Type["TROJKOLKY"]] = None
+    VETERANY: Optional[Type["VETERANY"]] = None
+    NAHRADNE_DIELY: Optional[Type["NAHRADNE_DIELY"]] = None
+    OBLECENIE_OBUV_HELMY: Optional[Type["OBLECENIE_OBUV_HELMY"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class CESTNE_MOTOCYKLE(SECTION_MOTOCYKLE):
@@ -1302,23 +1305,23 @@ class SECTION_STROJE(Category):
     section_name = "stroje"
     section_rss = "st"
 
-    CERPADLA = None
-    CISTIACE_STROJE = None
-    DREVOOBRABACIE_STROJE = None
-    GENERATORY = None
-    HISTORICKE_STROJE = None
-    MOTORY = None
-    KOVOOBRABACIE_STROJE = None
-    POLNOHOSPODARSKA_TECHNIKA = None
-    POTRAVINARSKE_STROJE = None
-    SKLADOVA_TECHNIKA = None
-    STAVEBNE_STROJE = None
-    TEXTILNE_STROJE = None
-    TLACIARENSKE_STROJE = None
-    VYBAVENIE_PREVADZKARNE = None
-    VYROBNA_LINKA = None
-    NAHRADNE_DIELY = None
-    OSTATNE = None
+    CERPADLA: Optional[Type["CERPADLA"]] = None
+    CISTIACE_STROJE: Optional[Type["CISTIACE_STROJE"]] = None
+    DREVOOBRABACIE_STROJE: Optional[Type["DREVOOBRABACIE_STROJE"]] = None
+    GENERATORY: Optional[Type["GENERATORY"]] = None
+    HISTORICKE_STROJE: Optional[Type["HISTORICKE_STROJE"]] = None
+    MOTORY: Optional[Type["MOTORY"]] = None
+    KOVOOBRABACIE_STROJE: Optional[Type["KOVOOBRABACIE_STROJE"]] = None
+    POLNOHOSPODARSKA_TECHNIKA: Optional[Type["POLNOHOSPODARSKA_TECHNIKA"]] = None
+    POTRAVINARSKE_STROJE: Optional[Type["POTRAVINARSKE_STROJE"]] = None
+    SKLADOVA_TECHNIKA: Optional[Type["SKLADOVA_TECHNIKA"]] = None
+    STAVEBNE_STROJE: Optional[Type["STAVEBNE_STROJE"]] = None
+    TEXTILNE_STROJE: Optional[Type["TEXTILNE_STROJE"]] = None
+    TLACIARENSKE_STROJE: Optional[Type["TLACIARENSKE_STROJE"]] = None
+    VYBAVENIE_PREVADZKARNE: Optional[Type["VYBAVENIE_PREVADZKARNE"]] = None
+    VYROBNA_LINKA: Optional[Type["VYROBNA_LINKA"]] = None
+    NAHRADNE_DIELY: Optional[Type["NAHRADNE_DIELY"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class CERPADLA(SECTION_STROJE):
@@ -1446,27 +1449,27 @@ class SECTION_DOM_A_ZAHRADA(Category):
     section_name = "dom"
     section_rss = "du"
 
-    BAZENY = None
-    CERPADLA = None
-    DVERE_BRANY = None
-    KLIMATIZACIE = None
-    KOSACKY = None
-    KOTLE_KACHLE_BOJLERY = None
-    MALOTRAKTORY_KULTIVATORY = None
-    MIESACKY = None
-    NARADIE = None
-    OKNA = None
-    PILY = None
-    SNEZNA_TECHNIKA = None
-    STAVEBNY_MATERIAL = None
-    RADIATORY = None
-    RASTLINY = None
-    VYBAVENIE_DIELNE = None
-    VYSAVACE_FUKACE = None
-    ZAHRADNE_GRILY = None
-    ZAHRADNY_NABYTOK = None
-    ZAHRADNA_TECHNIKA = None
-    OSTATNE = None
+    BAZENY: Optional[Type["BAZENY"]] = None
+    CERPADLA: Optional[Type["CERPADLA"]] = None
+    DVERE_BRANY: Optional[Type["DVERE_BRANY"]] = None
+    KLIMATIZACIE: Optional[Type["KLIMATIZACIE"]] = None
+    KOSACKY: Optional[Type["KOSACKY"]] = None
+    KOTLE_KACHLE_BOJLERY: Optional[Type["KOTLE_KACHLE_BOJLERY"]] = None
+    MALOTRAKTORY_KULTIVATORY: Optional[Type["MALOTRAKTORY_KULTIVATORY"]] = None
+    MIESACKY: Optional[Type["MIESACKY"]] = None
+    NARADIE: Optional[Type["NARADIE"]] = None
+    OKNA: Optional[Type["OKNA"]] = None
+    PILY: Optional[Type["PILY"]] = None
+    SNEZNA_TECHNIKA: Optional[Type["SNEZNA_TECHNIKA"]] = None
+    STAVEBNY_MATERIAL: Optional[Type["STAVEBNY_MATERIAL"]] = None
+    RADIATORY: Optional[Type["RADIATORY"]] = None
+    RASTLINY: Optional[Type["RASTLINY"]] = None
+    VYBAVENIE_DIELNE: Optional[Type["VYBAVENIE_DIELNE"]] = None
+    VYSAVACE_FUKACE: Optional[Type["VYSAVACE_FUKACE"]] = None
+    ZAHRADNE_GRILY: Optional[Type["ZAHRADNE_GRILY"]] = None
+    ZAHRADNY_NABYTOK: Optional[Type["ZAHRADNY_NABYTOK"]] = None
+    ZAHRADNA_TECHNIKA: Optional[Type["ZAHRADNA_TECHNIKA"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class BAZENY(SECTION_DOM_A_ZAHRADA):
@@ -1615,37 +1618,37 @@ class SECTION_PC(Category):
     section_name = "pc"
     section_rss = "pc"
 
-    DVD_BLURAY_MECHANIKY = None
-    FOTOAPARATY = None
-    GPS_NAVIGACIA = None
-    GRAFICKE_KARTY = None
-    HARD_DISKY_SSD = None
-    HERNE_KONZOLY = None
-    HERNE_ZARIADENIA = None
-    HRY = None
-    CHLADICE = None
-    KLAVESNICE_MYSI = None
-    KOPIROVACIE_STROJE = None
-    MOBILNE_TELEFONY = None
-    MODEMY = None
-    LCD_MONITORY = None
-    MP3_PREHRAVACE = None
-    NOTEBOOKY = None
-    PAMATE = None
-    PC_POCITACE = None
-    PROCESORY = None
-    SIETOVE_KOMPONENTY = None
-    SCANERY = None
-    SKRINE_ZDROJE = None
-    SOFTWARE = None
-    SPOTREBNY_MATERIAL = None
-    TABLETY_ECITACKY = None
-    TLACIARNE = None
-    WIRELESS_WIFI = None
-    ZAKLADNE_DOSKY = None
-    ZALOZNE_ZDROJE = None
-    ZVUKOVE_KARTY = None
-    OSTATNE = None
+    DVD_BLURAY_MECHANIKY: Optional[Type["DVD_BLURAY_MECHANIKY"]] = None
+    FOTOAPARATY: Optional[Type["FOTOAPARATY"]] = None
+    GPS_NAVIGACIA: Optional[Type["GPS_NAVIGACIA"]] = None
+    GRAFICKE_KARTY: Optional[Type["GRAFICKE_KARTY"]] = None
+    HARD_DISKY_SSD: Optional[Type["HARD_DISKY_SSD"]] = None
+    HERNE_KONZOLY: Optional[Type["HERNE_KONZOLY"]] = None
+    HERNE_ZARIADENIA: Optional[Type["HERNE_ZARIADENIA"]] = None
+    HRY: Optional[Type["HRY"]] = None
+    CHLADICE: Optional[Type["CHLADICE"]] = None
+    KLAVESNICE_MYSI: Optional[Type["KLAVESNICE_MYSI"]] = None
+    KOPIROVACIE_STROJE: Optional[Type["KOPIROVACIE_STROJE"]] = None
+    MOBILNE_TELEFONY: Optional[Type["MOBILNE_TELEFONY"]] = None
+    MODEMY: Optional[Type["MODEMY"]] = None
+    LCD_MONITORY: Optional[Type["LCD_MONITORY"]] = None
+    MP3_PREHRAVACE: Optional[Type["MP3_PREHRAVACE"]] = None
+    NOTEBOOKY: Optional[Type["NOTEBOOKY"]] = None
+    PAMATE: Optional[Type["PAMATE"]] = None
+    PC_POCITACE: Optional[Type["PC_POCITACE"]] = None
+    PROCESORY: Optional[Type["PROCESORY"]] = None
+    SIETOVE_KOMPONENTY: Optional[Type["SIETOVE_KOMPONENTY"]] = None
+    SCANERY: Optional[Type["SCANERY"]] = None
+    SKRINE_ZDROJE: Optional[Type["SKRINE_ZDROJE"]] = None
+    SOFTWARE: Optional[Type["SOFTWARE"]] = None
+    SPOTREBNY_MATERIAL: Optional[Type["SPOTREBNY_MATERIAL"]] = None
+    TABLETY_ECITACKY: Optional[Type["TABLETY_ECITACKY"]] = None
+    TLACIARNE: Optional[Type["TLACIARNE"]] = None
+    WIRELESS_WIFI: Optional[Type["WIRELESS_WIFI"]] = None
+    ZAKLADNE_DOSKY: Optional[Type["ZAKLADNE_DOSKY"]] = None
+    ZALOZNE_ZDROJE: Optional[Type["ZALOZNE_ZDROJE"]] = None
+    ZVUKOVE_KARTY: Optional[Type["ZVUKOVE_KARTY"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class DVD_BLURAY_MECHANIKY(SECTION_PC):
@@ -1857,29 +1860,29 @@ class SECTION_MOBILY(Category):
     section_name = "mobil"
     section_rss = "mo"
 
-    APPLE = None
-    HTC = None
-    HUAWEI_HONOR = None
-    LG = None
-    MOTOROLA_LENOVO = None
-    NOKIA_MICROSOFT = None
-    SAMSUNG = None
-    SONY = None
-    XIAOMI = None
-    OSTATNE_ZNACKY = None
-    BATERIE = None
-    BEZDROTOVE_TELEFONY = None
-    DATOVE_KABELY = None
-    FAXY = None
-    GPS_NAVIGACIA = None
-    HEADSETY = None
-    HF_SADY_DO_AUTA = None
-    INTELIGENTNE_HODINKY = None
-    KLASICKE_TELEFONY = None
-    KRYTY = None
-    NABIJACKY = None
-    PAMATOVE_KARTY = None
-    OSTATNE = None
+    APPLE: Optional[Type["APPLE"]] = None
+    HTC: Optional[Type["HTC"]] = None
+    HUAWEI_HONOR: Optional[Type["HUAWEI_HONOR"]] = None
+    LG: Optional[Type["LG"]] = None
+    MOTOROLA_LENOVO: Optional[Type["MOTOROLA_LENOVO"]] = None
+    NOKIA_MICROSOFT: Optional[Type["NOKIA_MICROSOFT"]] = None
+    SAMSUNG: Optional[Type["SAMSUNG"]] = None
+    SONY: Optional[Type["SONY"]] = None
+    XIAOMI: Optional[Type["XIAOMI"]] = None
+    OSTATNE_ZNACKY: Optional[Type["OSTATNE_ZNACKY"]] = None
+    BATERIE: Optional[Type["BATERIE"]] = None
+    BEZDROTOVE_TELEFONY: Optional[Type["BEZDROTOVE_TELEFONY"]] = None
+    DATOVE_KABELY: Optional[Type["DATOVE_KABELY"]] = None
+    FAXY: Optional[Type["FAXY"]] = None
+    GPS_NAVIGACIA: Optional[Type["GPS_NAVIGACIA"]] = None
+    HEADSETY: Optional[Type["HEADSETY"]] = None
+    HF_SADY_DO_AUTA: Optional[Type["HF_SADY_DO_AUTA"]] = None
+    INTELIGENTNE_HODINKY: Optional[Type["INTELIGENTNE_HODINKY"]] = None
+    KLASICKE_TELEFONY: Optional[Type["KLASICKE_TELEFONY"]] = None
+    KRYTY: Optional[Type["KRYTY"]] = None
+    NABIJACKY: Optional[Type["NABIJACKY"]] = None
+    PAMATOVE_KARTY: Optional[Type["PAMATOVE_KARTY"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class APPLE(SECTION_MOBILY):
@@ -2042,21 +2045,21 @@ class SECTION_FOTO(Category):
     section_name = "foto"
     section_rss = "fo"
 
-    ANALOGOVE_FOTOAPARATY = None
-    DIGITALNE_FOTOAPARATY = None
-    DRONY = None
-    VIDEOKAMERY = None
-    ZRKADLOVKY = None
-    BATERIE = None
-    BLESKY_A_OSVETLENIE = None
-    BRASNE_A_PUZDRA = None
-    DATOVE_KABLE = None
-    FILTRE = None
-    NABIJACKY = None
-    OBJEKTIVY = None
-    PAMATOVE_KARTY = None
-    STATIVY = None
-    OSTATNE = None
+    ANALOGOVE_FOTOAPARATY: Optional[Type["ANALOGOVE_FOTOAPARATY"]] = None
+    DIGITALNE_FOTOAPARATY: Optional[Type["DIGITALNE_FOTOAPARATY"]] = None
+    DRONY: Optional[Type["DRONY"]] = None
+    VIDEOKAMERY: Optional[Type["VIDEOKAMERY"]] = None
+    ZRKADLOVKY: Optional[Type["ZRKADLOVKY"]] = None
+    BATERIE: Optional[Type["BATERIE"]] = None
+    BLESKY_A_OSVETLENIE: Optional[Type["BLESKY_A_OSVETLENIE"]] = None
+    BRASNE_A_PUZDRA: Optional[Type["BRASNE_A_PUZDRA"]] = None
+    DATOVE_KABLE: Optional[Type["DATOVE_KABLE"]] = None
+    FILTRE: Optional[Type["FILTRE"]] = None
+    NABIJACKY: Optional[Type["NABIJACKY"]] = None
+    OBJEKTIVY: Optional[Type["OBJEKTIVY"]] = None
+    PAMATOVE_KARTY: Optional[Type["PAMATOVE_KARTY"]] = None
+    STATIVY: Optional[Type["STATIVY"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class ANALOGOVE_FOTOAPARATY(SECTION_FOTO):
@@ -2170,43 +2173,43 @@ class SECTION_ELEKTRO(Category):
     section_name = "elektro"
     section_rss = "el"
 
-    DIGESTORY = None
-    CHLADNICKY = None
-    MIKROVLNNE_RURY = None
-    MRAZNICKY = None
-    PRACKY = None
-    SPORAKY = None
-    SUSICKY = None
-    UMYVACKY_RIADU = None
-    OSTATNE_BIELA = None
-    AUTORADIA = None
-    DOMACE_KINA = None
-    FOTOAPARATY = None
-    GPS_NAVIGACIA = None
-    HIFI_SYSTEMY_RADIA = None
-    HUDOBNE_NASTROJE = None
-    MP3_PREHRAVACE = None
-    PROJEKTORY = None
-    REPRO_SUSTAVY = None
-    SLUCHADLA = None
-    TELEVIZORY = None
-    VIDEO_DVD_PREHRAVACE = None
-    VIDEOKAMERY = None
-    ZOSILNOVACE = None
-    OSTATNE_AUDIO_VIDEO = None
-    EPILATORY_DEPILATORY = None
-    FENY_KULMY = None
-    HOLIACE_STROJCEKY = None
-    KAVOVARY = None
-    NABIJACKY_BATERII = None
-    RUCNE_SLAHACE_MIXERY = None
-    SVIETIDLA_LAMPY = None
-    SIJACIE_STROJE = None
-    VYSAVACE = None
-    VYSIELACKY = None
-    ZVLHCOVACE_VZDUCHU = None
-    ZEHLICKY = None
-    OSTATNE_DROBNE = None
+    DIGESTORY: Optional[Type["DIGESTORY"]] = None
+    CHLADNICKY: Optional[Type["CHLADNICKY"]] = None
+    MIKROVLNNE_RURY: Optional[Type["MIKROVLNNE_RURY"]] = None
+    MRAZNICKY: Optional[Type["MRAZNICKY"]] = None
+    PRACKY: Optional[Type["PRACKY"]] = None
+    SPORAKY: Optional[Type["SPORAKY"]] = None
+    SUSICKY: Optional[Type["SUSICKY"]] = None
+    UMYVACKY_RIADU: Optional[Type["UMYVACKY_RIADU"]] = None
+    OSTATNE_BIELA: Optional[Type["OSTATNE_BIELA"]] = None
+    AUTORADIA: Optional[Type["AUTORADIA"]] = None
+    DOMACE_KINA: Optional[Type["DOMACE_KINA"]] = None
+    FOTOAPARATY: Optional[Type["FOTOAPARATY"]] = None
+    GPS_NAVIGACIA: Optional[Type["GPS_NAVIGACIA"]] = None
+    HIFI_SYSTEMY_RADIA: Optional[Type["HIFI_SYSTEMY_RADIA"]] = None
+    HUDOBNE_NASTROJE: Optional[Type["HUDOBNE_NASTROJE"]] = None
+    MP3_PREHRAVACE: Optional[Type["MP3_PREHRAVACE"]] = None
+    PROJEKTORY: Optional[Type["PROJEKTORY"]] = None
+    REPRO_SUSTAVY: Optional[Type["REPRO_SUSTAVY"]] = None
+    SLUCHADLA: Optional[Type["SLUCHADLA"]] = None
+    TELEVIZORY: Optional[Type["TELEVIZORY"]] = None
+    VIDEO_DVD_PREHRAVACE: Optional[Type["VIDEO_DVD_PREHRAVACE"]] = None
+    VIDEOKAMERY: Optional[Type["VIDEOKAMERY"]] = None
+    ZOSILNOVACE: Optional[Type["ZOSILNOVACE"]] = None
+    OSTATNE_AUDIO_VIDEO: Optional[Type["OSTATNE_AUDIO_VIDEO"]] = None
+    EPILATORY_DEPILATORY: Optional[Type["EPILATORY_DEPILATORY"]] = None
+    FENY_KULMY: Optional[Type["FENY_KULMY"]] = None
+    HOLIACE_STROJCEKY: Optional[Type["HOLIACE_STROJCEKY"]] = None
+    KAVOVARY: Optional[Type["KAVOVARY"]] = None
+    NABIJACKY_BATERII: Optional[Type["NABIJACKY_BATERII"]] = None
+    RUCNE_SLAHACE_MIXERY: Optional[Type["RUCNE_SLAHACE_MIXERY"]] = None
+    SVIETIDLA_LAMPY: Optional[Type["SVIETIDLA_LAMPY"]] = None
+    SIJACIE_STROJE: Optional[Type["SIJACIE_STROJE"]] = None
+    VYSAVACE: Optional[Type["VYSAVACE"]] = None
+    VYSIELACKY: Optional[Type["VYSIELACKY"]] = None
+    ZVLHCOVACE_VZDUCHU: Optional[Type["ZVLHCOVACE_VZDUCHU"]] = None
+    ZEHLICKY: Optional[Type["ZEHLICKY"]] = None
+    OSTATNE_DROBNE: Optional[Type["OSTATNE_DROBNE"]] = None
 
 
 class DIGESTORY(SECTION_ELEKTRO):
@@ -2439,33 +2442,33 @@ class SECTION_SPORT(Category):
     section_name = "sport"
     section_rss = "sp"
 
-    FITNESS_JOGGING = None
-    GOLF = None
-    FUTBAL = None
-    INLINES_SKATEBOARDING = None
-    KEMPING = None
-    LETECTVO = None
-    LOPTOVE_HRY = None
-    POLOVNICTVO_LOV = None
-    PAINTBALL = None
-    RYBOLOV = None
-    SPOLOCENSKE_HRY = None
-    TENIS_SQUASH_BADMINTON = None
-    TURISTIKA_HOROLEZECTVO = None
-    VODNE_SPORTY_POTAPANIE = None
-    VSETKO_OSTATNE = None
-    DETSKE_BICYKLE = None
-    KOLOBEZKY = None
-    HORSKE_BICYKLE = None
-    CESTNE_BICYKLE = None
-    SUCIASTKY_A_DIELY = None
-    OSTATNA_CYKLISTIKA = None
-    BEZKOVANIE = None
-    LYZOVANIE = None
-    SKIALPY = None
-    SNOWBOARDING = None
-    HOKEJ_KORCULOVANIE = None
-    OSTATNE_ZIMNE = None
+    FITNESS_JOGGING: Optional[Type["FITNESS_JOGGING"]] = None
+    GOLF: Optional[Type["GOLF"]] = None
+    FUTBAL: Optional[Type["FUTBAL"]] = None
+    INLINES_SKATEBOARDING: Optional[Type["INLINES_SKATEBOARDING"]] = None
+    KEMPING: Optional[Type["KEMPING"]] = None
+    LETECTVO: Optional[Type["LETECTVO"]] = None
+    LOPTOVE_HRY: Optional[Type["LOPTOVE_HRY"]] = None
+    POLOVNICTVO_LOV: Optional[Type["POLOVNICTVO_LOV"]] = None
+    PAINTBALL: Optional[Type["PAINTBALL"]] = None
+    RYBOLOV: Optional[Type["RYBOLOV"]] = None
+    SPOLOCENSKE_HRY: Optional[Type["SPOLOCENSKE_HRY"]] = None
+    TENIS_SQUASH_BADMINTON: Optional[Type["TENIS_SQUASH_BADMINTON"]] = None
+    TURISTIKA_HOROLEZECTVO: Optional[Type["TURISTIKA_HOROLEZECTVO"]] = None
+    VODNE_SPORTY_POTAPANIE: Optional[Type["VODNE_SPORTY_POTAPANIE"]] = None
+    VSETKO_OSTATNE: Optional[Type["VSETKO_OSTATNE"]] = None
+    DETSKE_BICYKLE: Optional[Type["DETSKE_BICYKLE"]] = None
+    KOLOBEZKY: Optional[Type["KOLOBEZKY"]] = None
+    HORSKE_BICYKLE: Optional[Type["HORSKE_BICYKLE"]] = None
+    CESTNE_BICYKLE: Optional[Type["CESTNE_BICYKLE"]] = None
+    SUCIASTKY_A_DIELY: Optional[Type["SUCIASTKY_A_DIELY"]] = None
+    OSTATNA_CYKLISTIKA: Optional[Type["OSTATNA_CYKLISTIKA"]] = None
+    BEZKOVANIE: Optional[Type["BEZKOVANIE"]] = None
+    LYZOVANIE: Optional[Type["LYZOVANIE"]] = None
+    SKIALPY: Optional[Type["SKIALPY"]] = None
+    SNOWBOARDING: Optional[Type["SNOWBOARDING"]] = None
+    HOKEJ_KORCULOVANIE: Optional[Type["HOKEJ_KORCULOVANIE"]] = None
+    OSTATNE_ZIMNE: Optional[Type["OSTATNE_ZIMNE"]] = None
 
 
 class FITNESS_JOGGING(SECTION_SPORT):
@@ -2656,22 +2659,22 @@ class SECTION_HUDBA(Category):
     section_name = "hudba"
     section_rss = "hu"
 
-    BICIE_NASTROJE = None
-    DYCHOVE_NASTROJE = None
-    KLAVESOVE_NASTROJE = None
-    SLACIKOVE_NASTROJE = None
-    STRUNOVE_NASTROJE = None
-    OSTATNE_NASTROJE = None
-    DVD_CD_MC_LP = None
-    HUDOBNICI_A_SKUPINY = None
-    KONCERTY = None
-    VYUKA_HUDBY = None
-    NOTY_TEXTY = None
-    SKUSOBNE = None
-    SVETELNA_TECHNIKA = None
-    VSTUPENKY = None
-    ZVUKOVA_TECHNIKA = None
-    OSTATNE = None
+    BICIE_NASTROJE: Optional[Type["BICIE_NASTROJE"]] = None
+    DYCHOVE_NASTROJE: Optional[Type["DYCHOVE_NASTROJE"]] = None
+    KLAVESOVE_NASTROJE: Optional[Type["KLAVESOVE_NASTROJE"]] = None
+    SLACIKOVE_NASTROJE: Optional[Type["SLACIKOVE_NASTROJE"]] = None
+    STRUNOVE_NASTROJE: Optional[Type["STRUNOVE_NASTROJE"]] = None
+    OSTATNE_NASTROJE: Optional[Type["OSTATNE_NASTROJE"]] = None
+    DVD_CD_MC_LP: Optional[Type["DVD_CD_MC_LP"]] = None
+    HUDOBNICI_A_SKUPINY: Optional[Type["HUDOBNICI_A_SKUPINY"]] = None
+    KONCERTY: Optional[Type["KONCERTY"]] = None
+    VYUKA_HUDBY: Optional[Type["VYUKA_HUDBY"]] = None
+    NOTY_TEXTY: Optional[Type["NOTY_TEXTY"]] = None
+    SKUSOBNE: Optional[Type["SKUSOBNE"]] = None
+    SVETELNA_TECHNIKA: Optional[Type["SVETELNA_TECHNIKA"]] = None
+    VSTUPENKY: Optional[Type["VSTUPENKY"]] = None
+    ZVUKOVA_TECHNIKA: Optional[Type["ZVUKOVA_TECHNIKA"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class BICIE_NASTROJE(SECTION_HUDBA):
@@ -2778,19 +2781,19 @@ class SECTION_VSTUPENKY(Category):
     section_name = "vstupenky"
     section_rss = "vs"
 
-    DARCEKOVE_POUKAZKY = None
-    DIALNICNE_ZNAMKY = None
-    CESTOVNE_LISTKY = None
-    LETENKY = None
-    PERMANENTKY = None
-    DIVADLO = None
-    FESTIVALY = None
-    HUDBA_KONCERTY = None
-    PRE_DETI = None
-    SPOLOCENSKE_AKCIE = None
-    SPORT = None
-    VYSTAVY = None
-    OSTATNE = None
+    DARCEKOVE_POUKAZKY: Optional[Type["DARCEKOVE_POUKAZKY"]] = None
+    DIALNICNE_ZNAMKY: Optional[Type["DIALNICNE_ZNAMKY"]] = None
+    CESTOVNE_LISTKY: Optional[Type["CESTOVNE_LISTKY"]] = None
+    LETENKY: Optional[Type["LETENKY"]] = None
+    PERMANENTKY: Optional[Type["PERMANENTKY"]] = None
+    DIVADLO: Optional[Type["DIVADLO"]] = None
+    FESTIVALY: Optional[Type["FESTIVALY"]] = None
+    HUDBA_KONCERTY: Optional[Type["HUDBA_KONCERTY"]] = None
+    PRE_DETI: Optional[Type["PRE_DETI"]] = None
+    SPOLOCENSKE_AKCIE: Optional[Type["SPOLOCENSKE_AKCIE"]] = None
+    SPORT: Optional[Type["SPORT"]] = None
+    VYSTAVY: Optional[Type["VYSTAVY"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class DARCEKOVE_POUKAZKY(SECTION_VSTUPENKY):
@@ -2890,29 +2893,29 @@ class SECTION_KNIHY(Category):
     section_name = "knihy"
     section_rss = "kn"
 
-    BELETRIA = None
-    CUDZOJAZYCNA_LITERATURA = None
-    CASOPISY = None
-    DETEKTIVKY = None
-    DETSKA_LITERATURA = None
-    DRAMA = None
-    ENCYKLOPEDIE = None
-    EZOTERIKA = None
-    HISTORICKE_ROMANY = None
-    HOBBY_ODBORNE_KNIHY = None
-    KUCHARKY = None
-    MAPY_CESTOVANIE = None
-    POCITACOVA_LITERATURA = None
-    PRE_MLADEZ = None
-    ROMANY_PRE_ZENY = None
-    SCIFI_FANTASY = None
-    UCEBNICE_SKRIPTA_ZS = None
-    UCEBNICE_SKRIPTA_SS = None
-    UCEBNICE_SKRIPTA_VS = None
-    UCEBNICE_SKRIPTA_JAZYKOVE = None
-    ZABAVNA_LITERATURA = None
-    ZDRAVY_ZIVOTNY_STYL = None
-    OSTATNE = None
+    BELETRIA: Optional[Type["BELETRIA"]] = None
+    CUDZOJAZYCNA_LITERATURA: Optional[Type["CUDZOJAZYCNA_LITERATURA"]] = None
+    CASOPISY: Optional[Type["CASOPISY"]] = None
+    DETEKTIVKY: Optional[Type["DETEKTIVKY"]] = None
+    DETSKA_LITERATURA: Optional[Type["DETSKA_LITERATURA"]] = None
+    DRAMA: Optional[Type["DRAMA"]] = None
+    ENCYKLOPEDIE: Optional[Type["ENCYKLOPEDIE"]] = None
+    EZOTERIKA: Optional[Type["EZOTERIKA"]] = None
+    HISTORICKE_ROMANY: Optional[Type["HISTORICKE_ROMANY"]] = None
+    HOBBY_ODBORNE_KNIHY: Optional[Type["HOBBY_ODBORNE_KNIHY"]] = None
+    KUCHARKY: Optional[Type["KUCHARKY"]] = None
+    MAPY_CESTOVANIE: Optional[Type["MAPY_CESTOVANIE"]] = None
+    POCITACOVA_LITERATURA: Optional[Type["POCITACOVA_LITERATURA"]] = None
+    PRE_MLADEZ: Optional[Type["PRE_MLADEZ"]] = None
+    ROMANY_PRE_ZENY: Optional[Type["ROMANY_PRE_ZENY"]] = None
+    SCIFI_FANTASY: Optional[Type["SCIFI_FANTASY"]] = None
+    UCEBNICE_SKRIPTA_ZS: Optional[Type["UCEBNICE_SKRIPTA_ZS"]] = None
+    UCEBNICE_SKRIPTA_SS: Optional[Type["UCEBNICE_SKRIPTA_SS"]] = None
+    UCEBNICE_SKRIPTA_VS: Optional[Type["UCEBNICE_SKRIPTA_VS"]] = None
+    UCEBNICE_SKRIPTA_JAZYKOVE: Optional[Type["UCEBNICE_SKRIPTA_JAZYKOVE"]] = None
+    ZABAVNA_LITERATURA: Optional[Type["ZABAVNA_LITERATURA"]] = None
+    ZDRAVY_ZIVOTNY_STYL: Optional[Type["ZDRAVY_ZIVOTNY_STYL"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class BELETRIA(SECTION_KNIHY):
@@ -3082,26 +3085,26 @@ class SECTION_NABYTOK(Category):
     section_name = "nabytok"
     section_rss = "na"
 
-    DETSKY_NABYTOK = None
-    DVERE_BRANY = None
-    JEDALENSKE_KUTY = None
-    KNIZNICE = None
-    KOBERCE_A_PODLAHOVA_KRYTINA = None
-    KRESLA_A_GAUCE = None
-    KUCHYNE = None
-    KUPELNE = None
-    LAMPY_OSVETLENIE = None
-    MATRACE = None
-    OBYVACIE_STENY = None
-    POSTELE = None
-    SEDACIE_SUPRAVY = None
-    SKRINE = None
-    SPALNE = None
-    STOLICKY = None
-    STOLY = None
-    ZAHRADNY_NABYTOK = None
-    DOPLNKY = None
-    OSTATNY_NABYTOK = None
+    DETSKY_NABYTOK: Optional[Type["DETSKY_NABYTOK"]] = None
+    DVERE_BRANY: Optional[Type["DVERE_BRANY"]] = None
+    JEDALENSKE_KUTY: Optional[Type["JEDALENSKE_KUTY"]] = None
+    KNIZNICE: Optional[Type["KNIZNICE"]] = None
+    KOBERCE_A_PODLAHOVA_KRYTINA: Optional[Type["KOBERCE_A_PODLAHOVA_KRYTINA"]] = None
+    KRESLA_A_GAUCE: Optional[Type["KRESLA_A_GAUCE"]] = None
+    KUCHYNE: Optional[Type["KUCHYNE"]] = None
+    KUPELNE: Optional[Type["KUPELNE"]] = None
+    LAMPY_OSVETLENIE: Optional[Type["LAMPY_OSVETLENIE"]] = None
+    MATRACE: Optional[Type["MATRACE"]] = None
+    OBYVACIE_STENY: Optional[Type["OBYVACIE_STENY"]] = None
+    POSTELE: Optional[Type["POSTELE"]] = None
+    SEDACIE_SUPRAVY: Optional[Type["SEDACIE_SUPRAVY"]] = None
+    SKRINE: Optional[Type["SKRINE"]] = None
+    SPALNE: Optional[Type["SPALNE"]] = None
+    STOLICKY: Optional[Type["STOLICKY"]] = None
+    STOLY: Optional[Type["STOLY"]] = None
+    ZAHRADNY_NABYTOK: Optional[Type["ZAHRADNY_NABYTOK"]] = None
+    DOPLNKY: Optional[Type["DOPLNKY"]] = None
+    OSTATNY_NABYTOK: Optional[Type["OSTATNY_NABYTOK"]] = None
 
 
 class JEDALENSKE_KUTY(SECTION_NABYTOK):
@@ -3236,35 +3239,35 @@ class SECTION_OBLECENIE(Category):
     section_name = "oblecenie"
     section_rss = "ob"
 
-    BLUZKY = None
-    BUNDY_A_KABATY = None
-    CIAPKY_SATKY = None
-    DZINSY = None
-    FUNKCNE_PRADLO = None
-    KOSELE = None
-    KOZENE_OBLECENIE = None
-    MIKINY = None
-    NOHAVICE = None
-    OBLEKY_SAKA = None
-    PLAVKY = None
-    RUKAVICE_A_SALY = None
-    RUSKA = None
-    SPODNA_BIELIZEN = None
-    SUKNE = None
-    SVADOBNE_SATY = None
-    SVETRE = None
-    SATY_KOSTYMY = None
-    SORTKY = None
-    SPORTOVE_OBLECENIE = None
-    TEHOTENSKE_OBLECENIE = None
-    TRICKA_ROLAKY_TIELKA = None
-    DOPLNKY = None
-    HODINKY = None
-    KABELKY = None
-    PLECNIAKY_A_KUFRE = None
-    TOPANKY_OBUV = None
-    SPERKY = None
-    OSTATNE = None
+    BLUZKY: Optional[Type["BLUZKY"]] = None
+    BUNDY_A_KABATY: Optional[Type["BUNDY_A_KABATY"]] = None
+    CIAPKY_SATKY: Optional[Type["CIAPKY_SATKY"]] = None
+    DZINSY: Optional[Type["DZINSY"]] = None
+    FUNKCNE_PRADLO: Optional[Type["FUNKCNE_PRADLO"]] = None
+    KOSELE: Optional[Type["KOSELE"]] = None
+    KOZENE_OBLECENIE: Optional[Type["KOZENE_OBLECENIE"]] = None
+    MIKINY: Optional[Type["MIKINY"]] = None
+    NOHAVICE: Optional[Type["NOHAVICE"]] = None
+    OBLEKY_SAKA: Optional[Type["OBLEKY_SAKA"]] = None
+    PLAVKY: Optional[Type["PLAVKY"]] = None
+    RUKAVICE_A_SALY: Optional[Type["RUKAVICE_A_SALY"]] = None
+    RUSKA: Optional[Type["RUSKA"]] = None
+    SPODNA_BIELIZEN: Optional[Type["SPODNA_BIELIZEN"]] = None
+    SUKNE: Optional[Type["SUKNE"]] = None
+    SVADOBNE_SATY: Optional[Type["SVADOBNE_SATY"]] = None
+    SVETRE: Optional[Type["SVETRE"]] = None
+    SATY_KOSTYMY: Optional[Type["SATY_KOSTYMY"]] = None
+    SORTKY: Optional[Type["SORTKY"]] = None
+    SPORTOVE_OBLECENIE: Optional[Type["SPORTOVE_OBLECENIE"]] = None
+    TEHOTENSKE_OBLECENIE: Optional[Type["TEHOTENSKE_OBLECENIE"]] = None
+    TRICKA_ROLAKY_TIELKA: Optional[Type["TRICKA_ROLAKY_TIELKA"]] = None
+    DOPLNKY: Optional[Type["DOPLNKY"]] = None
+    HODINKY: Optional[Type["HODINKY"]] = None
+    KABELKY: Optional[Type["KABELKY"]] = None
+    PLECNIAKY_A_KUFRE: Optional[Type["PLECNIAKY_A_KUFRE"]] = None
+    TOPANKY_OBUV: Optional[Type["TOPANKY_OBUV"]] = None
+    SPERKY: Optional[Type["SPERKY"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class BLUZKY(SECTION_OBLECENIE):
@@ -3476,35 +3479,35 @@ class SECTION_SLUZBY(Category):
     section_name = "sluzby"
     section_rss = "sl"
 
-    AUTO_MOTO = None
-    CESTOVANIE = None
-    DOMACE_PRACE = None
-    EZOTERIKA = None
-    IT_WEBDESIGN = None
-    KONE_SLUZBY = None
-    KURZY_A_SKOLENIA = None
-    OPRAVY_A_SERVIS = None
-    ORGANIZOVANIE_AKCII = None
-    POZICOVNE = None
-    PRAVO_A_BEZPECNOST = None
-    PREKLADATELSTVO = None
-    PREPRAVA_A_STAHOVANIE = None
-    REALITNE_SLUZBY = None
-    REKLAMA_NA_AUTO = None
-    REKLAMNE_PLOCHY_OSTATNE = None
-    REMESELNE_A_STAVEBNE_PRACE = None
-    SLUZBY_PRE_ZVIERATA = None
-    SPROSTREDKOVATELSKE_SLUZBY = None
-    STRAZENIE_DETI = None
-    TVORIVA_PRACA = None
-    UBYTOVANIE = None
-    UCTOVNICTVO_PORADENSTVO = None
-    UPRATOVANIE = None
-    VYROBA = None
-    VYUKA_DOUCOVANIE = None
-    VYUKA_HUDBY = None
-    ZDRAVIE_A_KRASA = None
-    OSTATNE = None
+    AUTO_MOTO: Optional[Type["AUTO_MOTO"]] = None
+    CESTOVANIE: Optional[Type["CESTOVANIE"]] = None
+    DOMACE_PRACE: Optional[Type["DOMACE_PRACE"]] = None
+    EZOTERIKA: Optional[Type["EZOTERIKA"]] = None
+    IT_WEBDESIGN: Optional[Type["IT_WEBDESIGN"]] = None
+    KONE_SLUZBY: Optional[Type["KONE_SLUZBY"]] = None
+    KURZY_A_SKOLENIA: Optional[Type["KURZY_A_SKOLENIA"]] = None
+    OPRAVY_A_SERVIS: Optional[Type["OPRAVY_A_SERVIS"]] = None
+    ORGANIZOVANIE_AKCII: Optional[Type["ORGANIZOVANIE_AKCII"]] = None
+    POZICOVNE: Optional[Type["POZICOVNE"]] = None
+    PRAVO_A_BEZPECNOST: Optional[Type["PRAVO_A_BEZPECNOST"]] = None
+    PREKLADATELSTVO: Optional[Type["PREKLADATELSTVO"]] = None
+    PREPRAVA_A_STAHOVANIE: Optional[Type["PREPRAVA_A_STAHOVANIE"]] = None
+    REALITNE_SLUZBY: Optional[Type["REALITNE_SLUZBY"]] = None
+    REKLAMA_NA_AUTO: Optional[Type["REKLAMA_NA_AUTO"]] = None
+    REKLAMNE_PLOCHY_OSTATNE: Optional[Type["REKLAMNE_PLOCHY_OSTATNE"]] = None
+    REMESELNE_A_STAVEBNE_PRACE: Optional[Type["REMESELNE_A_STAVEBNE_PRACE"]] = None
+    SLUZBY_PRE_ZVIERATA: Optional[Type["SLUZBY_PRE_ZVIERATA"]] = None
+    SPROSTREDKOVATELSKE_SLUZBY: Optional[Type["SPROSTREDKOVATELSKE_SLUZBY"]] = None
+    STRAZENIE_DETI: Optional[Type["STRAZENIE_DETI"]] = None
+    TVORIVA_PRACA: Optional[Type["TVORIVA_PRACA"]] = None
+    UBYTOVANIE: Optional[Type["UBYTOVANIE"]] = None
+    UCTOVNICTVO_PORADENSTVO: Optional[Type["UCTOVNICTVO_PORADENSTVO"]] = None
+    UPRATOVANIE: Optional[Type["UPRATOVANIE"]] = None
+    VYROBA: Optional[Type["VYROBA"]] = None
+    VYUKA_DOUCOVANIE: Optional[Type["VYUKA_DOUCOVANIE"]] = None
+    VYUKA_HUDBY: Optional[Type["VYUKA_HUDBY"]] = None
+    ZDRAVIE_A_KRASA: Optional[Type["ZDRAVIE_A_KRASA"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class AUTO_MOTO(SECTION_SLUZBY):
@@ -3716,17 +3719,17 @@ class SECTION_OSTATNE(Category):
     section_name = "ostatne"
     section_rss = "os"
 
-    MINCE_BANKOVKY = None
-    MODELARSTVO = None
-    POTRAVINY = None
-    SKLO_KERAMIKA = None
-    STAROZITNOSTI = None
-    SPERKY_HODINKY = None
-    UMELECKE_PREDMETY = None
-    ZBERATELSTVO = None
-    ZDRAVIE_A_KRASA = None
-    ZNAMKY_POHLADNICE = None
-    OSTATNE = None
+    MINCE_BANKOVKY: Optional[Type["MINCE_BANKOVKY"]] = None
+    MODELARSTVO: Optional[Type["MODELARSTVO"]] = None
+    POTRAVINY: Optional[Type["POTRAVINY"]] = None
+    SKLO_KERAMIKA: Optional[Type["SKLO_KERAMIKA"]] = None
+    STAROZITNOSTI: Optional[Type["STAROZITNOSTI"]] = None
+    SPERKY_HODINKY: Optional[Type["SPERKY_HODINKY"]] = None
+    UMELECKE_PREDMETY: Optional[Type["UMELECKE_PREDMETY"]] = None
+    ZBERATELSTVO: Optional[Type["ZBERATELSTVO"]] = None
+    ZDRAVIE_A_KRASA: Optional[Type["ZDRAVIE_A_KRASA"]] = None
+    ZNAMKY_POHLADNICE: Optional[Type["ZNAMKY_POHLADNICE"]] = None
+    OSTATNE: Optional[Type["OSTATNE"]] = None
 
 
 class MINCE_BANKOVKY(SECTION_OSTATNE):
