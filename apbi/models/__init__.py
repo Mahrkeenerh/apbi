@@ -1,5 +1,5 @@
 """Models for the apbi library."""
 
 
-import sections
+from apbi.models import sections
 # from notice import Notice
