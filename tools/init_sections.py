@@ -9,7 +9,8 @@ from format_sections import clean
 def init_sections() -> None:
     """Import all categories."""
 
-    sections = json.load(open("assets/raw_sections.json", "r", encoding="utf-8"))
+    with open("assets/raw_sections.json", "r", encoding="utf-8") as sections_file:
+        sections = json.load(sections_file)
 
     with open("apbi/models/sections/__init__.py", "w", encoding="utf-8") as init_file:
         print('"""sections models."""', file=init_file)
@@ -23,10 +24,10 @@ def init_sections() -> None:
                 f"from sections import SECTION_{section_class_name} as {section_class_name}",
                 file=init_file
             )
-    
+
     with open("apbi/models/sections/__init__.py", "r", encoding="utf-8") as infile:
         contents = unidecode("".join(infile.readlines())[:-1])
-    
+
     with open("apbi/models/sections/__init__.py", "w", encoding="utf-8") as outfile:
         print(contents, file=outfile)
 
