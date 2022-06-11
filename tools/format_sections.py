@@ -78,14 +78,12 @@ def assign_print(sections: list, out_file: TextIOWrapper) -> None:
 
         for category in section["categories"]:
             category_class_name = clean(str(category['name']).upper())
+            category_full_name = category_class_name
 
             try:
                 category_rss = str(category["category_rss"]).split("cat=")[1]
                 rss_plaintext = category_rss.replace("&", "_").replace("=", "_")
                 category_full_name = f"{category_class_name}_{rss_plaintext}"
-
-            except IndexError:
-                category_full_name = category_class_name
 
             finally:
                 print(
