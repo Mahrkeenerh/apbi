@@ -33,6 +33,13 @@ class Category:
         self.price_max = price_max
 
 
+class SECTION_ALL(Category):
+    """SECTION_ALL."""
+
+    section_name = ""
+    section_rss = ""
+
+
 class SECTION_ZVIERATA(Category):
     """SECTION_ZVIERATA."""
 

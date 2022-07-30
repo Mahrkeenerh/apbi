@@ -85,6 +85,9 @@ def assign_print(sections: list, out_file: TextIOWrapper) -> None:
                 rss_plaintext = category_rss.replace("&", "_").replace("=", "_")
                 category_full_name = f"{category_class_name}_{rss_plaintext}"
 
+            except IndexError:
+                continue
+
             finally:
                 print(
                     f"{section_class_name}.{category_class_name} = {category_full_name}",
@@ -101,41 +104,9 @@ def basic_print() -> None:
         sections = json.load(sections_file)
 
     with open("apbi/models/sections/sections.py", "w", encoding="utf-8") as out_file:
-        print('"""All sections and categories from bazos."""', file=out_file)
-        print(file=out_file)
-        print("# pylint: disable=C0103", file=out_file)
-        print("# pylint: disable=C0302", file=out_file)
-        print(file=out_file)
-        print(file=out_file)
-        print("class Category:", file=out_file)
-        print('    """Base category class."""', file=out_file)
-        print(file=out_file)
-        print("    section_name: str = None", file=out_file)
-        print("    section_rss: str = None", file=out_file)
-        print("    category_name: str = None", file=out_file)
-        print("    category_rss: str = None", file=out_file)
-        print(file=out_file)
-        print("    search: str = None", file=out_file)
-        print("    postal_code: str = None", file=out_file)
-        print("    vicinity: int = None", file=out_file)
-        print("    price_min: int = None", file=out_file)
-        print("    price_max: int = None", file=out_file)
-        print(file=out_file)
-        print("    def __init__(", file=out_file)
-        print("        self,", file=out_file)
-        print("        search: str = None,", file=out_file)
-        print("        postal_code: str = None,", file=out_file)
-        print("        vicinity: int = None,", file=out_file)
-        print("        price_min: int = None,", file=out_file)
-        print("        price_max: int = None,", file=out_file)
-        print("    ):", file=out_file)
-        print("        self.search = search", file=out_file)
-        print("        self.postal_code = postal_code", file=out_file)
-        print("        self.vicinity = vicinity", file=out_file)
-        print("        self.price_min = price_min", file=out_file)
-        print("        self.price_max = price_max", file=out_file)
-        print(file=out_file)
-        print(file=out_file)
+        with open("tools/sections_header.py", "r", encoding="utf-8") as header_file:
+            print(header_file.read(), file=out_file)
+            print(file=out_file)
 
         define_print(sections, out_file)
         assign_print(sections, out_file)
