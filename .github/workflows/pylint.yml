@@ -20,6 +20,12 @@ jobs:
         pip install pylint
         pip install -r requirements.txt
         pip install -r requirements_tools.txt
-    - name: Analysing the code with pylint
+    - name: Analyse APBI
       run: |
-        pylint $(git ls-files '*.py')
+        pylint $(git ls-files 'apbi/*.py')
+    - name: Analyse examples
+      run: |
+        pylint $(git ls-files 'examples/*.py')
+    - name: Analyse tools
+      run: |
+        pylint $(git ls-files 'tools*.py')

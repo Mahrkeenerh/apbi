@@ -1,4 +1,4 @@
-﻿[MASTER]
+﻿[MAIN]
 
 # A comma-separated list of package or module names from where C extensions may
 # be loaded. Extensions are loading into the active Python interpreter and may
@@ -48,7 +48,7 @@ limit-inference-results=100
 load-plugins=
 
 # DOCSTYLE
-pylint.extensions.docstyle=Numpy
+# pylint.extensions.docstyle=Numpy
 
 # Pickle collected data for later comparisons.
 persistent=yes
