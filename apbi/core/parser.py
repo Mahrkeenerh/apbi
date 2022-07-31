@@ -1,18 +1,20 @@
 """Parse webpages."""
 
+from typing import List
 import re
 from datetime import datetime
+from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
 
-from apbi.models import Notice
+from apbi.models import Notice, Details
 
 
-def parse_page(full_text: str, link: str) -> list:
+def parse_page(full_text: str, link: str) -> List[Notice]:
     """Parse full text into a list of notices.
 
     Args:
-        fulltext: Full text of the page.
+        full_text: Full text of the page.
         link: Link to the page.
 
     Returns:
@@ -25,7 +27,13 @@ def parse_page(full_text: str, link: str) -> list:
     notices = []
 
     for notice_soup in notices_soup:
-        full_link = link + notice_soup.find("a").get("href")
+        url = urlparse(link)
+
+        if url.netloc == "www.bazos.sk":
+            full_link = notice_soup.find("a").get("href")
+        else:
+            full_link = f"{url.scheme}://{url.netloc}" + notice_soup.find("a").get("href")
+
         date = re.search(r"\[(\d+)[^\d]*(\d+)[^\d]*(\d+)\]", notice_soup.find("span").text)
         top_tag = notice_soup.find("span", {"class": "ztop"})
 
@@ -36,10 +44,9 @@ def parse_page(full_text: str, link: str) -> list:
         else:
             top = re.search(r"(\d+)x[^\d]*(\d+)[^\d]*(\d+)[^\d]*(\d+)", top_tag.get("title"))
             top_count = int(top.group(1))
-            topped_until = f"{top.group(4)}-{top.group(3):02}-{top.group(2):02}"
+            topped_until = f"{top.group(4)}-{int(top.group(3)):02d}-{int(top.group(2)):02d}"
 
         views_text = notice_soup.find("div", {"class": "inzeratyview"}).text
-        views = int(re.search(r"(\d+)", views_text).group(1))
 
         notice = Notice(
             notice_id=re.search(r"inzerat/([0-9]+)/", full_link).group(1),
@@ -47,14 +54,14 @@ def parse_page(full_text: str, link: str) -> list:
             title=notice_soup.find("h2").text,
             link=full_link,
             thumbnail=notice_soup.find("img").get("src"),
-            published_date=f"{date.group(3)}-{date.group(2):02}-{date.group(1):02}",
+            published_date=f"{date.group(3)}-{int(date.group(2)):02d}-{int(date.group(1)):02d}",
             published_time=None,
             description=notice_soup.find("div", {"class": "popis"}).text,
             price=notice_soup.find("b").text.strip(),
             top_count=top_count,
             topped_until=topped_until,
-            views=views,
-            details=None
+            views=int(re.search(r"(\d+)", views_text).group(1))
+
         )
 
         notices.append(notice)
@@ -62,11 +69,11 @@ def parse_page(full_text: str, link: str) -> list:
     return notices
 
 
-def parse_rss(full_text: str) -> list:
+def parse_rss(full_text: str) -> List[Notice]:
     """Parse rss full text into a list of notices.
 
     Args:
-        fulltext: Full text of the page.
+        full_text: Full text of the page.
 
     Returns:
         List of notices.
@@ -89,8 +96,8 @@ def parse_rss(full_text: str) -> list:
             description = description_text
 
         date = datetime.strptime(notice_soup.find("pubDate").text, "%a, %d %b %Y %H:%M:%S %z")
-        publish_date = f"{date.year}-{date.month:02}-{date.day:02}"
-        publish_time = f"{date.hour:02}:{date.minute:02}:{date.second:02}"
+        publish_date = f"{date.year}-{date.month:02d}-{date.day:02d}"
+        publish_time = f"{date.hour:02d}:{date.minute:02d}:{date.second:02d}"
 
         notice = Notice(
             notice_id=re.search(r"inzerat/([0-9]+)/", notice_soup.find("link").text).group(1),
@@ -108,6 +115,67 @@ def parse_rss(full_text: str) -> list:
 
     return notices
 
-# def parse_notice()
 
-# def parse_meta()
+def preload_notice(notice: Notice, full_text: str) -> None:
+    """Preload notice details.
+
+    Args:
+        notice: Notice to preload into.
+        full_text: Full text of the page.
+    """
+
+    soup = BeautifulSoup(full_text, "html.parser")
+    table_items = soup.find("td").find_all("tr")
+    locations = table_items[2].find_all("a")
+
+    details = Details(
+        full_description=soup.find("div", {"class": "popisdetail"}).text,
+        city=locations[1].text,
+        postal_code=locations[0].text,
+        seller_name=table_items[0].find_all("td")[1].text,
+        phone_number=table_items[1].find_all("td")[1].text
+    )
+
+    if notice.rss:
+        top_tag = soup.find("span", {"class": "ztop"})
+
+        if top_tag is None:
+            top_count = 0
+            topped_until = None
+
+        else:
+            top = re.search(r"(\d+)x[^\d]*(\d+)[^\d]*(\d+)[^\d]*(\d+)", top_tag.get("title"))
+            top_count = int(top.group(1))
+            topped_until = f"{top.group(4)}-{int(top.group(3)):02d}-{int(top.group(2)):02d}"
+
+        views_text = table_items[3].find_all("td")[1].text
+
+        notice.top_count = top_count
+        notice.topped_until = topped_until
+        notice.views = int(re.search(r"(\d+)", views_text).group(1))
+
+    notice.details = details
+
+
+def parse_meta(full_text: str) -> dict:
+    """Parse meta data from the page.
+
+    Args:
+        full_text: Full text of the page.
+
+    Returns:
+        Dictionary of meta data.
+    """
+
+    soup = BeautifulSoup(full_text, "html.parser")
+
+    header_text = soup.find("div", {"class": "inzeratynadpis"}).text.replace(" ", "")
+    footer = soup.find_all("b")[-2:]
+
+    meta = {
+        "header_total": int(re.search(r"z(\d+)", header_text).group(1)),
+        "footer_total": int(footer[0].text),
+        "footer_daily": int(footer[1].text),
+    }
+
+    return meta

@@ -1,14 +1,12 @@
 """Single notice class."""
 
-from typing import Callable
-
 
 class Details:
     """Details class containing notice information."""
 
     def __init__(
         self,
-        description: str,
+        full_description: str,
         city: str,
         postal_code: str,
         seller_name: str,
@@ -17,14 +15,14 @@ class Details:
         """Initialize details instance.
 
         Args:
-            description: full description of the notice.
+            full_description: full description of the notice.
             city: city of the notice.
             postal_code: postal code of the notice.
             seller_name: name of seller of the notice.
             phone_number: phone number of the seller, or `None` if not verified.
         """
 
-        self.description = description
+        self.description = full_description
         """description: Full description of the notice."""
 
         self.city = city
@@ -43,11 +41,6 @@ class Details:
 class Notice:
     """Single notice class."""
 
-    # if calling something that needs to be preloaded, use this method
-    def __getattribute__(self, name: str) -> Callable:
-        print("attribute", name)
-        return object.__getattribute__(self, name)
-
     def __init__(
         self,
         notice_id: str,
@@ -61,8 +54,7 @@ class Notice:
         price: str,
         top_count: int = None,
         topped_until: str = None,
-        views: int = None,
-        details: Details = None
+        views: int = None
     ) -> None:
         """Initialize notice instance.
 
@@ -81,7 +73,6 @@ class Notice:
             topped_until: the date the notice will be topped until. Format 'YYYY-MM-DD'
                 or `None` if not topped (not preloaded if `rss`).
             views: number of times the notice has been viewed (not preloaded if `rss`).
-            details: details of the notice (not preloaded).
         """
 
         self.notice_id = notice_id
@@ -120,7 +111,20 @@ class Notice:
         or `None` if not topped (not preloaded if `rss`)."""
 
         self.views = views
-        """views: Number of times the notice has been viewed."""
+        """views: Number of times the notice has been viewed (not preloaded if `rss`)."""
 
-        self.details = details
+        self.details = None
         """details: Details of the notice (not preloaded)."""
+
+        self._preloaded = False
+        """_preloaded: Whether the notice has been preloaded or not."""
+
+    async def preload(self) -> None:
+        """Preload details of the notice."""
+
+        if self._preloaded:
+            return
+
+        # self.details = await self.get_details()
+        # TODO CALL paraser preload
+        self._preloaded = True

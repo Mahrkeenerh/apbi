@@ -1,3 +1,3 @@
 """Models for the apbi library."""
 
-from apbi.models.notice import Notice
+from apbi.models.notice import Notice, Details
