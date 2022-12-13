@@ -11,6 +11,9 @@ class Details:
         postal_code: str,
         seller_name: str,
         phone_number: str,
+        top_count: int,
+        topped_until: str,
+        views: int
     ) -> None:
         """Initialize details instance.
 
@@ -20,6 +23,10 @@ class Details:
             postal_code: postal code of the notice.
             seller_name: name of seller of the notice.
             phone_number: phone number of the seller, or `None` if not verified.
+            top_count: number of times the notice has been topped.
+            topped_until: the date the notice will be topped until. Format 'YYYY-MM-DD'
+                or `None` if not topped.
+            views: number of times the notice has been viewed.
         """
 
         self.description = full_description
@@ -37,6 +44,16 @@ class Details:
         self.phone = phone_number
         """phone_number: Phone number of the seller, or `None` if not verified."""
 
+        self.top_count = top_count
+        """top_count: Number of times the notice has been topped."""
+
+        self.topped_until = topped_until
+        """topped_until: The date the notice will be topped until. Format 'YYYY-MM-DD'
+            or `None` if not topped."""
+
+        self.views = views
+        """views: Number of times the notice has been viewed."""
+
 
 class Notice:
     """Single notice class."""
@@ -44,42 +61,29 @@ class Notice:
     def __init__(
         self,
         notice_id: str,
-        rss: bool,
         title: str,
         link: str,
         thumbnail: str,
         published_date: str,
         published_time: str,
         description: str,
-        price: str,
-        top_count: int = None,
-        topped_until: str = None,
-        views: int = None
+        price: str
     ) -> None:
         """Initialize notice instance.
 
         Args:
             notice_id: ID of the notice.
-            rss: whether the notice is from RSS or not.
             title: title of the notice.
             link: full link to the notice.
             thumbnail: link to thumbnail of the notice.
             published_date: date of publication. Format 'YYYY-MM-DD'.
-            published_time: time of publication. Format 'hh:mm:ss timezone'
-                or `None` if not `rss`.
+            published_time: time of publication. Format 'hh:mm:ss timezone'.
             description: short description of the notice.
             price: display price of the notice.
-            top_count: number of times the notice has been topped (not preloaded if `rss`).
-            topped_until: the date the notice will be topped until. Format 'YYYY-MM-DD'
-                or `None` if not topped (not preloaded if `rss`).
-            views: number of times the notice has been viewed (not preloaded if `rss`).
         """
 
         self.notice_id = notice_id
         """notice_id: ID of the notice."""
-
-        self.rss = rss
-        """rss: Whether the notice is from RSS or not."""
 
         self.title = title
         """title: Title of the notice."""
@@ -102,16 +106,6 @@ class Notice:
 
         self.price = price
         """price: Display price of the notice."""
-
-        self.top_count = top_count
-        """top_count: Number of times the notice has been topped (not preloaded if `rss`)."""
-
-        self.topped_until = topped_until
-        """topped_until: The date the notice will be topped until. Format 'YYYY-MM-DD'
-        or `None` if not topped (not preloaded if `rss`)."""
-
-        self.views = views
-        """views: Number of times the notice has been viewed (not preloaded if `rss`)."""
 
         self.details = None
         """details: Details of the notice (not preloaded)."""

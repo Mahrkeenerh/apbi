@@ -10,21 +10,21 @@ from bs4 import BeautifulSoup
 from apbi.models import Notice, Details
 
 
-def parse_page(full_text: str, link: str) -> List[Notice]:
-    """Parse full text into a list of notices.
+def parse_page(full_text: str, link: str) -> List[int]:
+    """Parse full text into a list of notice ids.
 
     Args:
         full_text: Full text of the page.
         link: Link to the page.
 
     Returns:
-        List of notices.
+        List of ids.
     """
 
     soup = BeautifulSoup(full_text, "html.parser")
     notices_soup = soup.find_all("div", {"class": "inzeraty inzeratyflex"})
 
-    notices = []
+    notice_ids = []
 
     for notice_soup in notices_soup:
         url = urlparse(link)
@@ -34,39 +34,9 @@ def parse_page(full_text: str, link: str) -> List[Notice]:
         else:
             full_link = f"{url.scheme}://{url.netloc}" + notice_soup.find("a").get("href")
 
-        date = re.search(r"\[(\d+)[^\d]*(\d+)[^\d]*(\d+)\]", notice_soup.find("span").text)
-        top_tag = notice_soup.find("span", {"class": "ztop"})
+        notice_ids.append(re.search(r"inzerat/([0-9]+)/", full_link).group(1))
 
-        if top_tag is None:
-            top_count = 0
-            topped_until = None
-
-        else:
-            top = re.search(r"(\d+)x[^\d]*(\d+)[^\d]*(\d+)[^\d]*(\d+)", top_tag.get("title"))
-            top_count = int(top.group(1))
-            topped_until = f"{top.group(4)}-{int(top.group(3)):02d}-{int(top.group(2)):02d}"
-
-        views_text = notice_soup.find("div", {"class": "inzeratyview"}).text
-
-        notice = Notice(
-            notice_id=re.search(r"inzerat/([0-9]+)/", full_link).group(1),
-            rss=False,
-            title=notice_soup.find("h2").text,
-            link=full_link,
-            thumbnail=notice_soup.find("img").get("src"),
-            published_date=f"{date.group(3)}-{int(date.group(2)):02d}-{int(date.group(1)):02d}",
-            published_time=None,
-            description=notice_soup.find("div", {"class": "popis"}).text,
-            price=notice_soup.find("b").text.strip(),
-            top_count=top_count,
-            topped_until=topped_until,
-            views=int(re.search(r"(\d+)", views_text).group(1))
-
-        )
-
-        notices.append(notice)
-
-    return notices
+    return notice_ids
 
 
 def parse_rss(full_text: str) -> List[Notice]:
@@ -101,7 +71,6 @@ def parse_rss(full_text: str) -> List[Notice]:
 
         notice = Notice(
             notice_id=re.search(r"inzerat/([0-9]+)/", notice_soup.find("link").text).group(1),
-            rss=True,
             title=title_match.group(1),
             link=notice_soup.find("link").text,
             thumbnail=thumbnail,
@@ -128,31 +97,29 @@ def preload_notice(notice: Notice, full_text: str) -> None:
     table_items = soup.find("td").find_all("tr")
     locations = table_items[2].find_all("a")
 
+    top_tag = soup.find("span", {"class": "ztop"})
+
+    if top_tag is None:
+        top_count = 0
+        topped_until = None
+
+    else:
+        top = re.search(r"(\d+)x[^\d]*(\d+)[^\d]*(\d+)[^\d]*(\d+)", top_tag.get("title"))
+        top_count = int(top.group(1))
+        topped_until = f"{top.group(4)}-{int(top.group(3)):02d}-{int(top.group(2)):02d}"
+
+    views_text = table_items[3].find_all("td")[1].text
+
     details = Details(
         full_description=soup.find("div", {"class": "popisdetail"}).text,
         city=locations[1].text,
         postal_code=locations[0].text,
         seller_name=table_items[0].find_all("td")[1].text,
-        phone_number=table_items[1].find_all("td")[1].text
+        phone_number=table_items[1].find_all("td")[1].text,
+        top_count=top_count,
+        topped_until=topped_until,
+        views=int(re.search(r"(\d+)", views_text).group(1))
     )
-
-    if notice.rss:
-        top_tag = soup.find("span", {"class": "ztop"})
-
-        if top_tag is None:
-            top_count = 0
-            topped_until = None
-
-        else:
-            top = re.search(r"(\d+)x[^\d]*(\d+)[^\d]*(\d+)[^\d]*(\d+)", top_tag.get("title"))
-            top_count = int(top.group(1))
-            topped_until = f"{top.group(4)}-{int(top.group(3)):02d}-{int(top.group(2)):02d}"
-
-        views_text = table_items[3].find_all("td")[1].text
-
-        notice.top_count = top_count
-        notice.topped_until = topped_until
-        notice.views = int(re.search(r"(\d+)", views_text).group(1))
 
     notice.details = details
 
